@@ -1,0 +1,14 @@
+name: app_iaa_sdk
+description: Optional reusable commercial module for stage-gated Flutter applications.
+version: 0.1.0
+publish_to: none
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+  flutter: '>=3.38.1'
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: 9.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

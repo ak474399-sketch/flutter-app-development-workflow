@@ -1,0 +1,45 @@
+{
+  "pages": [
+    {
+      "id": "page_example",
+      "title": "待填写",
+      "source_ids": [],
+      "states": [
+        "loading",
+        "ready",
+        "empty",
+        "error"
+      ],
+      "entries": [],
+      "back_target": "",
+      "localization_keys": [],
+      "design_artifact": "",
+      "runtime_artifact": ""
+    }
+  ],
+  "interactions": [
+    {
+      "id": "action_example",
+      "page": "page_example",
+      "source_ids": [],
+      "trigger": "",
+      "preconditions": [],
+      "result": "",
+      "failure": "",
+      "data_effect": "",
+      "test_case": ""
+    }
+  ],
+  "assets": [
+    {
+      "id": "hero_example",
+      "page": "page_example",
+      "role": "hero",
+      "placeholder": "icon",
+      "status": "pending",
+      "source_ids": [],
+      "file": "",
+      "prompt_file": ""
+    }
+  ]
+}

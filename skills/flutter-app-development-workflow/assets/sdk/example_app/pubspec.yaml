@@ -1,0 +1,21 @@
+name: workflow_sdk_example
+description: Credential-free, clearly labeled simulated workflows; native SDK compile host.
+publish_to: none
+version: 0.1.0+1
+environment:
+  sdk: '>=3.10.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  app_growth_sdk:
+    path: ../app_growth_sdk
+  app_iaa_sdk:
+    path: ../app_iaa_sdk
+  app_subscription_sdk:
+    path: ../app_subscription_sdk
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true

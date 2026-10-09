@@ -1,0 +1,164 @@
+{
+  "schema": 1,
+  "project": "待填写",
+  "modules": {
+    "firebase": true,
+    "meta": true,
+    "iaa": false,
+    "subscription": false
+  },
+  "sources": [],
+  "pages": [],
+  "interactions": [],
+  "assets": [],
+  "stages": [
+    {
+      "id": "1",
+      "name": "参考资料",
+      "revision": 1,
+      "status": "pending",
+      "requires": [],
+      "scope": "",
+      "criteria": [],
+      "inputs": [],
+      "outputs": [],
+      "approval": null,
+      "na_reason": ""
+    },
+    {
+      "id": "2",
+      "name": "页面与交互",
+      "revision": 1,
+      "status": "pending",
+      "requires": [
+        "1"
+      ],
+      "scope": "",
+      "criteria": [],
+      "inputs": [],
+      "outputs": [],
+      "approval": null,
+      "na_reason": ""
+    },
+    {
+      "id": "3",
+      "name": "image 设计",
+      "revision": 1,
+      "status": "pending",
+      "requires": [
+        "2"
+      ],
+      "scope": "",
+      "criteria": [],
+      "inputs": [],
+      "outputs": [],
+      "approval": null,
+      "na_reason": ""
+    },
+    {
+      "id": "4",
+      "name": "Flutter UI",
+      "revision": 1,
+      "status": "pending",
+      "requires": [
+        "3"
+      ],
+      "scope": "",
+      "criteria": [],
+      "inputs": [],
+      "outputs": [],
+      "approval": null,
+      "na_reason": ""
+    },
+    {
+      "id": "5",
+      "name": "本地内容与功能",
+      "revision": 1,
+      "status": "pending",
+      "requires": [
+        "4"
+      ],
+      "scope": "",
+      "criteria": [],
+      "inputs": [],
+      "outputs": [],
+      "approval": null,
+      "na_reason": ""
+    },
+    {
+      "id": "6",
+      "name": "后端交互",
+      "revision": 1,
+      "status": "pending",
+      "requires": [
+        "5"
+      ],
+      "scope": "",
+      "criteria": [],
+      "inputs": [],
+      "outputs": [],
+      "approval": null,
+      "na_reason": ""
+    },
+    {
+      "id": "7",
+      "name": "AI 服务",
+      "revision": 1,
+      "status": "pending",
+      "requires": [
+        "6"
+      ],
+      "scope": "",
+      "criteria": [],
+      "inputs": [],
+      "outputs": [],
+      "approval": null,
+      "na_reason": ""
+    },
+    {
+      "id": "8",
+      "name": "SDK 与商业化",
+      "revision": 1,
+      "status": "pending",
+      "requires": [
+        "7"
+      ],
+      "scope": "",
+      "criteria": [],
+      "inputs": [],
+      "outputs": [],
+      "approval": null,
+      "na_reason": ""
+    },
+    {
+      "id": "9",
+      "name": "整体验收",
+      "revision": 1,
+      "status": "pending",
+      "requires": [
+        "8"
+      ],
+      "scope": "",
+      "criteria": [],
+      "inputs": [],
+      "outputs": [],
+      "approval": null,
+      "na_reason": ""
+    },
+    {
+      "id": "10",
+      "name": "上报与交付",
+      "revision": 1,
+      "status": "pending",
+      "requires": [
+        "9"
+      ],
+      "scope": "",
+      "criteria": [],
+      "inputs": [],
+      "outputs": [],
+      "approval": null,
+      "na_reason": ""
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Flutter 应用开发流程"
+  short_description: "基于 APK 与逆向资料，分阶段引导开发、验收和商业化交付"
+  default_prompt: "使用 $flutter-app-development-workflow，先核对已有 APK、逆向报告与开发记录，说明阶段、准备材料和验收办法，再引导我逐阶段完成应用。"

@@ -1,0 +1,169 @@
+{
+  "schema": 1,
+  "scope": "精选真实决定与开发记录的逐项证据。完整文件名库存仅证明已枚举文件，不证明逐字读完全部开发会话。",
+  "cases": [
+    {
+      "id": "english-ui-first",
+      "evidence_kind": "historical_project_document",
+      "project_file": "ai 英语/docs/DECISIONS.md",
+      "file_sha256": "60c0db1d9ff97a984f5b5dcd8699f63fc6cfedb89f8003fcf31f6e2e3bb54734",
+      "line_start": 10,
+      "line_end": 10,
+      "excerpt": "- 当前技术：Flutter，安卓真机；先采集、写页面交互文档、调用 image/Figma 设计、制作页面、验收交互。",
+      "observed_record": "早期已确认页面阶段先行，功能后续接。",
+      "reusable_rule": "参考资料→页面交互→设计→Flutter UI→验收；不预设用户画像。",
+      "limit": "项目记录摘录，不冒充原始会话逐字稿；历史测试结果不继承给新项目。"
+    },
+    {
+      "id": "english-images",
+      "evidence_kind": "historical_project_document",
+      "project_file": "ai 英语/docs/DECISIONS.md",
+      "file_sha256": "60c0db1d9ff97a984f5b5dcd8699f63fc6cfedb89f8003fcf31f6e2e3bb54734",
+      "line_start": 38,
+      "line_end": 38,
+      "excerpt": "用户要求用 image 插图替换大量占位 icon、补齐首页丰富程度、启动引导和缺省状态。继续限定 Flutter 页面阶段，保持冰蓝与可爱机器人，未授权接功能服务。修订详见 UI-POLISH-0.3.0.md；新增异常状态是新产品设计，不冒充竞品实测。",
+      "observed_record": "记录要求补齐 icon 占位、首页、启动引导和缺省状态。",
+      "reusable_rule": "独立大图替换 icon 占位，补引导与缺省，语义操作图标保留。",
+      "limit": "项目记录摘录，不冒充原始会话逐字稿；历史测试结果不继承给新项目。"
+    },
+    {
+      "id": "english-visual-rollback",
+      "evidence_kind": "historical_project_document",
+      "project_file": "ai 英语/docs/DECISIONS.md",
+      "file_sha256": "60c0db1d9ff97a984f5b5dcd8699f63fc6cfedb89f8003fcf31f6e2e3bb54734",
+      "line_start": 70,
+      "line_end": 70,
+      "excerpt": "用户认为 0.5 装饰和层次矫枉过正；先生成首页顶部／下滑样稿并得到“可以，应用把”确认，授权应用到 Flutter 及其他页面。恢复冰蓝气氛，减轻普通卡片边框、投影和标题重量；首页按样稿成组排版，底部导航贴底。新增四张无 IP 功能插图及咖啡馆缩略图，保留已确认机器人；其他页面统一基础视觉规则。",
+      "observed_record": "过度装饰后回到样稿确认流程。",
+      "reusable_rule": "视觉反馈先代表样稿验收，再批量应用；保留原产物。",
+      "limit": "项目记录摘录，不冒充原始会话逐字稿；历史测试结果不继承给新项目。"
+    },
+    {
+      "id": "english-tests-first",
+      "evidence_kind": "historical_project_document",
+      "project_file": "ai 英语/docs/DECISIONS.md",
+      "file_sha256": "60c0db1d9ff97a984f5b5dcd8699f63fc6cfedb89f8003fcf31f6e2e3bb54734",
+      "line_start": 107,
+      "line_end": 107,
+      "excerpt": "用户确认本轮 1–7、9：资料保存、真实统计、阅读与练习分离、错题及逐题详情、续练、备份清理、朗读控制、分享帮助；提醒及录音留到后续。移除样例 XP，保留原始材料，不假造掌握或 AI 分数。进一步要求先补 UI 用例：旧版先行 91 项通过后开始开发。整包备份校验、确认后替换；清理仅学习数据。无设备操作、无云端／支付／广告部署，原生路径仅构建及替代调用验证。契约与当前验收见 LOCAL-CORE-0.9.0.md。0.8.2 源码、测试、文档、清单与 APK 保持历史。",
+      "observed_record": "0.9.0 记录先运行旧 UI 用例后开始本地闭环。",
+      "reusable_rule": "本地功能开发前补交互回归定义；本地／外部服务分验。",
+      "limit": "项目记录摘录，不冒充原始会话逐字稿；历史测试结果不继承给新项目。"
+    },
+    {
+      "id": "english-device-conditional",
+      "evidence_kind": "historical_project_document",
+      "project_file": "ai 英语/docs/DECISIONS.md",
+      "file_sha256": "60c0db1d9ff97a984f5b5dcd8699f63fc6cfedb89f8003fcf31f6e2e3bb54734",
+      "line_start": 111,
+      "line_end": 111,
+      "excerpt": "用户授权先备份旧数据、保留数据更新 0.9.0 并验收；随后明确手机无法解锁，改用模拟器，手机页面操作停止。仅在隔离测试实例执行确认清理和整包恢复。0.9.0 模拟器复现续练题型不可辨认、配对待匹配选项丢失；0.9.1 增加题型显示和可选来源 ID 保存，以履行现有续练契约，不改变商业、首答、统计和备份规则。缺少旧字段时不补造。",
+      "observed_record": "本轮获授权保留更新，设备受阻后用户改用隔离模拟器。",
+      "reusable_rule": "设备数据保护是条件分支，模拟器结论不替代真机。",
+      "limit": "项目记录摘录，不冒充原始会话逐字稿；历史测试结果不继承给新项目。"
+    },
+    {
+      "id": "english-content-complete",
+      "evidence_kind": "historical_project_document",
+      "project_file": "ai 英语/docs/DECISIONS.md",
+      "file_sha256": "60c0db1d9ff97a984f5b5dcd8699f63fc6cfedb89f8003fcf31f6e2e3bb54734",
+      "line_start": 138,
+      "line_end": 139,
+      "excerpt": "- 用户明确不接受正式产品保留未补齐课程。已确认九语种课程、配套内容和辅助翻译必须完整建设并验收；样课/分批为内部节点，不能以样课交付替代完整范围。\n- 下载未缓存内容与教材尚未完成严格区分：正式下载索引的教材必须已完整存在服务器。",
+      "observed_record": "用户不接受以样课代替完整教材。",
+      "reusable_rule": "目录、正文、完整交付和内部样本分别记录。",
+      "limit": "项目记录摘录，不冒充原始会话逐字稿；历史测试结果不继承给新项目。"
+    },
+    {
+      "id": "english-ads-inventory",
+      "evidence_kind": "historical_project_document",
+      "project_file": "ai 英语/docs/ADS-FIREBASE-PRODUCTION-20261007.md",
+      "file_sha256": "c069911266834eb06a3c86306c6dc32c85204d096da82a9b9aff245fddda1450",
+      "line_start": 16,
+      "line_end": 18,
+      "excerpt": "每池两种不同 ID 各缓存一条；六池共 12 条 ready。展示中的对象另计，不重复租用。共享插页合计四条；原生、Banner、激励的不同业务入口共享对应池，不再每个页面建池。完整映射以 [CSV](../config/admob-unit-map.csv) 和 [机器配置](../config/admob-production.json) 为准；nav01 的 [已移除单元尾号] 来源是用户提供的两张截图并已确认使用。\n\n启动请求所有启用池；展示完成遍历补请求；55 分钟过期前释放，展示前再次校验。冷/热启动均走启动页：10 秒上限，3/6/9 秒进度为70%/90%/99%，就绪后结束；开屏权重最高，仅无开屏才用插页，插页不借开屏。引导语言、三张介绍、个性化前进、翻译展示前及每两次有效 Tab 切换尝试插页；无填充/失败不阻塞原操作。频率和入口沿用已确认规则，未新增展示时机。",
+      "observed_record": "文档记录六池12条 ready、两个插页池合计4条、55分钟、启动10秒。",
+      "reusable_rule": "按物理库存共享，不按每个业务位置建立独立库存；容量绑定配置。",
+      "limit": "项目记录摘录，不冒充原始会话逐字稿；历史测试结果不继承给新项目。",
+      "redactions": [
+        "旧项目广告单元尾号，不作为新项目配置。"
+      ]
+    },
+    {
+      "id": "scan-payment-gap",
+      "evidence_kind": "historical_project_document",
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_21.md",
+      "file_sha256": "c8b635aef49ef8c27e8675dabab21bc76b83cb3ead67be65b7ea9fb73db49375",
+      "line_start": 20,
+      "line_end": 20,
+      "excerpt": "| Subscription | Feature-specific preview entry and one global local simulated entitlement | Google Play Billing, actual charge/trial and real Restore are not implemented. |",
+      "observed_record": "PRD 明确真实 Billing／扣款／恢复未实现。",
+      "reusable_rule": "真实购买、恢复和权益必须独立实现与验收；不复用模拟发会员。",
+      "limit": "项目记录摘录，不冒充原始会话逐字稿；历史测试结果不继承给新项目。"
+    },
+    {
+      "id": "scan-report-data",
+      "evidence_kind": "historical_project_document",
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_21.md",
+      "file_sha256": "c8b635aef49ef8c27e8675dabab21bc76b83cb3ead67be65b7ea9fb73db49375",
+      "line_start": 57,
+      "line_end": 57,
+      "excerpt": "No blood pressure, respiration, oxygen saturation, HRV, stress or disease-risk estimate from the face camera. No Gemini face upload. No claim of medical-grade accuracy. Google Play Billing remains unchanged.",
+      "observed_record": "记录限制可宣称的测量值和上传行为。",
+      "reusable_rule": "报告字段必须绑定实际测量／供应商；缺失不能伪造。",
+      "limit": "项目记录摘录，不冒充原始会话逐字稿；历史测试结果不继承给新项目。"
+    },
+    {
+      "id": "scan-close-style",
+      "evidence_kind": "historical_project_document",
+      "project_file": "vivasignal-demo/lib/screens/app_screens.dart",
+      "file_sha256": "013d7f27b8774faa7e4b1d5ef73149af90b7318532c3a87fecc669589aa2075c",
+      "line_start": 3621,
+      "line_end": 3645,
+      "excerpt": "class _PaywallTopButton extends StatelessWidget {\n  const _PaywallTopButton({\n    required this.tooltip,\n    required this.onPressed,\n    required this.icon,\n  });\n  final String tooltip;\n  final VoidCallback onPressed;\n  final IconData icon;\n\n  @override\n  Widget build(BuildContext context) => IconButton(\n    tooltip: tooltip,\n    onPressed: onPressed,\n    icon: Icon(icon, size: 32),\n    color: Colors.white,\n    constraints: const BoxConstraints.tightFor(width: 48, height: 48),\n  );\n}\n\nclass _PaywallLegalLink extends StatelessWidget {\n  const _PaywallLegalLink({required this.label, required this.onPressed});\n\n  final String label;\n  final VoidCallback onPressed;",
+      "observed_record": "原组件是白色 rounded close 图标、32dp图形、48dp点击区。",
+      "reusable_rule": "复用语义关闭图标、48dp点击区和本产品背景对比；不把新延迟写成旧事实。",
+      "limit": "项目记录摘录，不冒充原始会话逐字稿；历史测试结果不继承给新项目。"
+    },
+    {
+      "id": "user-stage-gate",
+      "evidence_kind": "user_message_in_this_conversation",
+      "message_locator": "先对齐阶段，再确定验收，理论上每个大阶段的产物需要用户验收",
+      "excerpt": "先对齐阶段，再确定验收，理论上每个大阶段的产物需要用户验收",
+      "reusable_rule": "每大阶段先对齐验收，产物经用户验收后进入依赖阶段。",
+      "limit": "本会话新增确认，不是旧项目已实现事实。"
+    },
+    {
+      "id": "user-source-fidelity",
+      "evidence_kind": "user_message_in_this_conversation",
+      "message_locator": "请严格根据真实的指令内容上下文和迭代记录来完成，不要帮我创建莫须有内容",
+      "excerpt": "请严格根据真实的指令内容上下文和迭代记录来完成，不要帮我创建莫须有内容",
+      "reusable_rule": "来源分级和未知项必须保留，不能添加用户未要求的策划。",
+      "limit": "本会话新增确认，不是旧项目已实现事实。"
+    },
+    {
+      "id": "user-business-defaults",
+      "evidence_kind": "user_message_in_this_conversation",
+      "message_locator": "广告的请求，缓存，展示逻辑也可以封装进去作为默认，订阅页的关闭按钮样式，主要订阅页的布局，关闭按钮 2 秒展示，付费后自动关闭等细节逻辑也可以全部写入 skill",
+      "excerpt": "广告的请求，缓存，展示逻辑也可以封装进去作为默认，订阅页的关闭按钮样式，主要订阅页的布局，关闭按钮 2 秒展示，付费后自动关闭等细节逻辑也可以全部写入 skill",
+      "reusable_rule": "广告和订阅仍可选；选择后采用已定机制、2秒显示及验证后关闭。",
+      "limit": "本会话新增确认，不是旧项目已实现事实。"
+    },
+    {
+      "id": "user-ad-confirmation",
+      "evidence_kind": "user_message_in_this_conversation",
+      "message_locator": "采用上述机制，页面触发与频率按产品确认（推荐）",
+      "excerpt": "采用上述机制，页面触发与频率按产品确认（推荐）",
+      "reusable_rule": "每池2条／插页4条／55分钟／并发4；仅启用所选格式。",
+      "limit": "本会话新增确认，不是旧项目已实现事实。"
+    },
+    {
+      "id": "user-restore-confirmation",
+      "evidence_kind": "user_message_in_this_conversation",
+      "message_locator": "恢复成功也自动关闭（推荐）",
+      "excerpt": "恢复成功也自动关闭（推荐）",
+      "reusable_rule": "恢复须先真实验证和权益生效。",
+      "limit": "本会话新增确认，不是旧项目已实现事实。"
+    }
+  ]
+}

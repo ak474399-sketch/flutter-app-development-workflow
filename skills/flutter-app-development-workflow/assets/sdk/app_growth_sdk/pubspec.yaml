@@ -1,0 +1,23 @@
+name: app_growth_sdk
+description: Android-first Firebase and Meta App Events adapter for stage-gated Flutter apps.
+version: 0.1.0
+publish_to: none
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+  flutter: '>=3.35.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^4.15.0
+  firebase_analytics: ^12.6.0
+  firebase_crashlytics: ^5.4.0
+  firebase_remote_config: ^6.7.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: dev.workflow.app_growth_sdk
+        pluginClass: AppGrowthPlugin

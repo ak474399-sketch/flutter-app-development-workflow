@@ -1,0 +1,1940 @@
+{
+  "scope": "只读枚举项目 Markdown 开发记录（包含历史快照），未复制原文件、私有配置或用户数据；不是全部会话逐字稿。",
+  "records": [
+    {
+      "project_file": "ai 英语/docs/AAB-BUILD-20261007.md",
+      "bytes": 4367,
+      "sha256": "0783efb101e5b66100c6e73f5079f125d984a7aab70b86632af981399ea04671"
+    },
+    {
+      "project_file": "ai 英语/docs/ADS-COMMERCIAL-REFERENCE-20261007.md",
+      "bytes": 24771,
+      "sha256": "503277841bb3cb54cf29aefc8d75255dd5968306bdcaac2cdcb648624fb9e419"
+    },
+    {
+      "project_file": "ai 英语/docs/ADS-FIREBASE-PRODUCTION-20261007.md",
+      "bytes": 5240,
+      "sha256": "c069911266834eb06a3c86306c6dc32c85204d096da82a9b9aff245fddda1450"
+    },
+    {
+      "project_file": "ai 英语/docs/ADS-TEST-20261007.md",
+      "bytes": 5942,
+      "sha256": "cdf4b0ad11487b4cf1906809ac90a6422317da0c183dfd1de1bb0fdcf6e9a43b"
+    },
+    {
+      "project_file": "ai 英语/docs/ADS-UI-20261007.md",
+      "bytes": 4341,
+      "sha256": "dad9cbe569415960d55c86d2bceb396f857718038a0fc661111a56b637317482"
+    },
+    {
+      "project_file": "ai 英语/docs/AI-PUBLIC-HTTPS-20261005.md",
+      "bytes": 4802,
+      "sha256": "94259b946ee59bc7abb262054a8abfc743341eb692faafa3198019fcc8de6024"
+    },
+    {
+      "project_file": "ai 英语/docs/AI-SERVER-DEPLOY-PLAN.md",
+      "bytes": 4183,
+      "sha256": "81b4492911b417a016278385af9525294a23fb4ba4c382c27ca8b990a7d72516"
+    },
+    {
+      "project_file": "ai 英语/docs/AI-TEXT-0.10.0.md",
+      "bytes": 7035,
+      "sha256": "f1889f2ed85a5ead6a3e0610af1ced9a3df77e48da4baea67e75e809053388b5"
+    },
+    {
+      "project_file": "ai 英语/docs/AI-VOICE-0.12.0.md",
+      "bytes": 3326,
+      "sha256": "e983d5325b05c97b5041d25c376cee526a5183eb754fff13ed581add4d4717b3"
+    },
+    {
+      "project_file": "ai 英语/docs/AUTO-ENTRY-0.14.0-dev11.md",
+      "bytes": 4321,
+      "sha256": "f8a11b517bad8a4e24370d946b9769b462830501c876c6ac2819b8be423c69f7"
+    },
+    {
+      "project_file": "ai 英语/docs/COMMERCIAL-draft.md",
+      "bytes": 2696,
+      "sha256": "0f4a73ea0fa2211961f0113a45f0de7e92837ce944e54b4bc615cafb7eb4e4f0"
+    },
+    {
+      "project_file": "ai 英语/docs/CONTENT-BUILD-20261006.md",
+      "bytes": 13023,
+      "sha256": "3fd9b8c52f8e4f242348d119e0c0a79340c7d66222934dfa8ddfa1feab98da59"
+    },
+    {
+      "project_file": "ai 英语/docs/CONTENT-COMPLETION-PROPOSAL-20261005.md",
+      "bytes": 9836,
+      "sha256": "eacd0093036dfdd1de045ea6bc972f4947cc77345c32af8c35bd9b967ac1ec9e"
+    },
+    {
+      "project_file": "ai 英语/docs/CONTENT-DOWNLOAD-0.14.0-dev10.md",
+      "bytes": 4830,
+      "sha256": "4f56019cae6a739ce6e76374e409ec70f2b8d02e4fc190cba36a38971e1fcda4"
+    },
+    {
+      "project_file": "ai 英语/docs/COURSE-CONTENT-0.7.0.md",
+      "bytes": 3277,
+      "sha256": "a72cbceb71839c54676e2740d880008e0b121aa7fddb32a7a2783db64153c4a4"
+    },
+    {
+      "project_file": "ai 英语/docs/DECISIONS.md",
+      "bytes": 27311,
+      "sha256": "60c0db1d9ff97a984f5b5dcd8699f63fc6cfedb89f8003fcf31f6e2e3bb54734"
+    },
+    {
+      "project_file": "ai 英语/docs/DEVELOPMENT-WORKFLOW-RETROSPECTIVE-20261008.md",
+      "bytes": 17038,
+      "sha256": "580c84e494fa0909dc686b88e8910c5da8e9adb3d5f55e2d263d0f4b3f10352f"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.10.0-20261005.md",
+      "bytes": 4595,
+      "sha256": "72935c8787d157df34ac4c02eb72129e33de1258a727621bbddc76f832326e33"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.11.0-20261005.md",
+      "bytes": 2066,
+      "sha256": "a0f0d9c25876ab3bd0cba5e948031421c054a13399cd084158fb45149b44c11a"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.12.0-20261005.md",
+      "bytes": 4587,
+      "sha256": "d0143da36fc2d77ae1436413dfa8db74dbe0e4cf78569f2b106dd2e8d4145bbe"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.13.0-20261005.md",
+      "bytes": 4780,
+      "sha256": "e401d31d100f121b2c4e8513c2e000b3f36d0ed552cade822d8c05766eeba26e"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.15.0-20261007.md",
+      "bytes": 3240,
+      "sha256": "a6a39c1e6391d4d520d8bab1f21b8b6c7fc0fecf194e131f82e6dc856fe43f68"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.15.0-dev1-20261007.md",
+      "bytes": 3429,
+      "sha256": "8ff7ba9069af6dce4d355b9ed03a1a3901571c641d6ea45a5f25fdf11f44fc83"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.15.0-dev2-20261007.md",
+      "bytes": 2147,
+      "sha256": "7c94f0fbcac24b82f096d89b260fe3127b23ef6a92e32ef06b4d42db05677996"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.15.0-dev3-20261007.md",
+      "bytes": 2424,
+      "sha256": "34c19b21a8f0399fd9489d1383f97df96e51288b594b5dc5460657f95a728a14"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.15.0-dev4-20261007.md",
+      "bytes": 2306,
+      "sha256": "1743a2f6802a26767994137ab67cc3f6be255f0608878ee4ba5a26758e050be3"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.15.0-dev5-20261007.md",
+      "bytes": 3120,
+      "sha256": "d0ce1a18d17031e6d994833a247115f85d0096430558a776d5351eff67f2e5cf"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.15.1-20261008.md",
+      "bytes": 2130,
+      "sha256": "69a4a7dc7ac6aa119299194d79cfe0d9d454a33f7c4f30eefc34c2ae51ddeb48"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.9.0-20261004.md",
+      "bytes": 24485,
+      "sha256": "b75a04f333249da9428e683a6e05b136e75d064e4a012e40b14f54ed799c3cb9"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.9.1-20261005.md",
+      "bytes": 1995,
+      "sha256": "37b83903ecd88a30c46e00f64c2c3b71a677711aecbb902982102e56fa0426e5"
+    },
+    {
+      "project_file": "ai 英语/docs/HANDOFF-0.9.2-20261005.md",
+      "bytes": 2132,
+      "sha256": "7ac4351932b9e541bf42ea2223cb30a36fab55f50ad40adbed0b7c930532429f"
+    },
+    {
+      "project_file": "ai 英语/docs/LOCAL-CORE-0.9.0.md",
+      "bytes": 5500,
+      "sha256": "f87a7052263f1d784d59a49a408537e4d9f8d42d3ce907ac528f8bb8b0dcd255"
+    },
+    {
+      "project_file": "ai 英语/docs/LOCAL-CORE-0.9.1.md",
+      "bytes": 1615,
+      "sha256": "cbf8f17d2ec51afe74f868e4d8d1a780497587cc54aa5ab4e9653e2dae75b6ff"
+    },
+    {
+      "project_file": "ai 英语/docs/LOCAL-CORE-0.9.2.md",
+      "bytes": 1120,
+      "sha256": "e93651bee126c4f565271f77ebe61d8fc9a657d0bcd3663f083259762eb7857a"
+    },
+    {
+      "project_file": "ai 英语/docs/LOCAL-LEARNING-0.8.0.md",
+      "bytes": 7493,
+      "sha256": "56446ebfb659414d74a7c8d683154ed4643a88cc355935f13d4accdadc2d9caa"
+    },
+    {
+      "project_file": "ai 英语/docs/LUNA-PUSH-0.11.0.md",
+      "bytes": 2798,
+      "sha256": "fcf9051930e7cf9318274075f6372bb41ed20adfdf8a6446c2044fe22a0bef24"
+    },
+    {
+      "project_file": "ai 英语/docs/MICRO-MOTION-0.8.2.md",
+      "bytes": 4411,
+      "sha256": "18288ef939c0fd381744752c4fd24a45c46914dc5306c671c2956f0182ce9633"
+    },
+    {
+      "project_file": "ai 英语/docs/MULTILINGUAL-CONTENT-PLAN-20261005.md",
+      "bytes": 18681,
+      "sha256": "c8430db3c329445e3684ad06fc463cb10e6a0294133f058cb3dc49c6f03ae361"
+    },
+    {
+      "project_file": "ai 英语/docs/PACKAGE-TO-PRODUCT-PLAN-20261008.md",
+      "bytes": 7836,
+      "sha256": "6dc477b316eb42b1043c55a7b728f71b8cc0a266cdbae51e351916177b00828c"
+    },
+    {
+      "project_file": "ai 英语/docs/PENDING-20261008.md",
+      "bytes": 2996,
+      "sha256": "54d0556099a865514c96d493c9448ac833d871817b4d973be9c555f27785eb38"
+    },
+    {
+      "project_file": "ai 英语/docs/PRD-draft.md",
+      "bytes": 4669,
+      "sha256": "c8bb91c887f04e01c87d79be5c36ce0d8bbec4530aff00bc133d1d376dcbdd08"
+    },
+    {
+      "project_file": "ai 英语/docs/PRODUCTION-IDENTITY-20261006.md",
+      "bytes": 4264,
+      "sha256": "5badc26462e122225584f883d2a66d22e43a14ca1b94b5ec148b6ab1860a1a21"
+    },
+    {
+      "project_file": "ai 英语/docs/PROGRESS-AND-PLAN-20261005.md",
+      "bytes": 8003,
+      "sha256": "4d914ba800b5ea7ae15145622642bbdf4c257c1bd88a57b05435d6cc012b03c0"
+    },
+    {
+      "project_file": "ai 英语/docs/PROJECT_INDEX.md",
+      "bytes": 2556,
+      "sha256": "99aa8778853917028ad477ecd5a6bc6bdd5a9559e09c0c88c11499f01cd1cc25"
+    },
+    {
+      "project_file": "ai 英语/docs/README-0.2.0历史.md",
+      "bytes": 2773,
+      "sha256": "03b11661ede61fee59464c28c83c04290aca2ab01308e83b5063aa8794bc403b"
+    },
+    {
+      "project_file": "ai 英语/docs/README-0.4.0真机第一轮.md",
+      "bytes": 4034,
+      "sha256": "0ee0ad42292dfc7099152f1b6100ec44380b7e15abb946812273b7d9a5ff2187"
+    },
+    {
+      "project_file": "ai 英语/docs/SECONDARY-DETAIL-UI-0.8.1.md",
+      "bytes": 7368,
+      "sha256": "39457c2cb68a4a09fddde4c9201211dd31d914f6f48a7498af03885b161113f6"
+    },
+    {
+      "project_file": "ai 英语/docs/SYSTEM-VOICE-OPTIONS-20261005.md",
+      "bytes": 2355,
+      "sha256": "f43c4f4d4600922dca8ba60a850878b55541aa056e1b4564a0fc7b97583f344e"
+    },
+    {
+      "project_file": "ai 英语/docs/TEXT-FRAMEWORK-0.13.0.md",
+      "bytes": 5468,
+      "sha256": "06dc2bf17a99540c4ea1b526750c0f28b1c9070054aea76ffb9ffcf8b511696e"
+    },
+    {
+      "project_file": "ai 英语/docs/UI-COMMERCIAL.md",
+      "bytes": 9024,
+      "sha256": "15ed9e45c1dd9fe43647c2e5b524bc074f49f4e0c3db1c06d8d331be005d88e7"
+    },
+    {
+      "project_file": "ai 英语/docs/UI-LOCALIZATION-13-20261009.md",
+      "bytes": 1622,
+      "sha256": "fd1abecec899518e84eb5ac30bf11f6448a7e63d6b5877843f8ca2fec3634e0f"
+    },
+    {
+      "project_file": "ai 英语/docs/UI-LOCALIZATION-ADS-0.15.0-dev5.md",
+      "bytes": 4274,
+      "sha256": "2bb955834f9632c5a9c11f0fbbb4c8097f0ce539a2fac31372fe482aeca62e6f"
+    },
+    {
+      "project_file": "ai 英语/docs/UI-MAIN-FLOW-0.4.0.md",
+      "bytes": 4217,
+      "sha256": "b10ff6934c53fbc8285474afbd0cd2e44fe2b7010ffd8a3a0807181aa3e35f1b"
+    },
+    {
+      "project_file": "ai 英语/docs/UI-POLISH-0.3.0.md",
+      "bytes": 4362,
+      "sha256": "398ffa35af4d55c1e9c3d9ea6d715f06b140718ea1179bed1d72ab980876ca51"
+    },
+    {
+      "project_file": "ai 英语/docs/UI-POLISH-0.5.0.md",
+      "bytes": 2581,
+      "sha256": "57b5d92d8bf4259004bec8e95c999a73a15db510f467f802b60da6ea984992e7"
+    },
+    {
+      "project_file": "ai 英语/docs/UI-PRD-0.3.0历史.md",
+      "bytes": 4111,
+      "sha256": "22724fcaab0fdad3931c63c633390994625e903aa47bf75bb22800fe0d4eed29"
+    },
+    {
+      "project_file": "ai 英语/docs/UI-PRD-0.4.0真机第一轮.md",
+      "bytes": 5989,
+      "sha256": "450e3d2c7c1b648e7c7872aa9548a61c80dcb6e6461ad0b440bb7c883f5125c8"
+    },
+    {
+      "project_file": "ai 英语/docs/UI-PRD.md",
+      "bytes": 17639,
+      "sha256": "81716fbf0ea255498c1307392156f69900b9cb2ccdf5613a45fbe9d6995fe95b"
+    },
+    {
+      "project_file": "ai 英语/docs/UI-VISUAL-0.6.0.md",
+      "bytes": 1546,
+      "sha256": "65f6589cc5fb12dd9faf1089f24461a96f75f528f857b5d0a8cc2c6e0f020379"
+    },
+    {
+      "project_file": "ai 英语/docs/VOICE-AND-MODULES-PLAN-20261005.md",
+      "bytes": 5584,
+      "sha256": "6e3f611080209c8a28d4e93b9a9719185ac1c84e71ac819e36d5ea8dd6ad19c7"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/README.md",
+      "bytes": 233,
+      "sha256": "2d8cdda6127976a863617e86cde53669d48eb2dec64397fbc3970a14b2783c55"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/ai_server/README.md",
+      "bytes": 2935,
+      "sha256": "a9bdcee6f5793ddc5533f2e521dd2e2770aa4e90c72af999d435b63bc876fbdf"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/docs/DECISIONS.md",
+      "bytes": 12427,
+      "sha256": "fe04f19d8a085bef411e08f525ac832cd4715a66efccaca2b876cdb1884690e4"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/docs/HANDOFF-0.13.0-20261005.md",
+      "bytes": 4206,
+      "sha256": "259feae964837cc06a7aef46e8c5ebff5235fb58aeedaaec8b170564cf285b38"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/docs/PROGRESS-AND-PLAN-20261005.md",
+      "bytes": 7644,
+      "sha256": "a358c80823a9b6cd5f1d7db9b665ac1c8e17e996e77f7fdc363f671363405826"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/docs/PROJECT_INDEX.md",
+      "bytes": 6186,
+      "sha256": "c58b4cab3c9f4794a1042602a4d5cfad9b610ec527477bb0ce480d58ad7b95e1"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/docs/TEXT-FRAMEWORK-0.13.0.md",
+      "bytes": 5131,
+      "sha256": "c1408d203ca58f1b14e6a394d666f9e4897e127773f922293139a5d99937bb26"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/docs/UI-COMMERCIAL.md",
+      "bytes": 5420,
+      "sha256": "232467eeb61da5a3b86e8ce78b038533043683f3ffb0e0580963275c24a19e31"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/docs/UI-PRD.md",
+      "bytes": 14627,
+      "sha256": "57ca37b0a7568665087a215d5ac4f0620b6c55296c3ace465085701567348978"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 15190,
+      "sha256": "45725d761e275b748db12da7209f0c7af97923b14749c137143f507a263c4243"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/docs/reference-ui/页面与交互.md",
+      "bytes": 13952,
+      "sha256": "3c31dffe4f07fd4e212d3a63ad3709e06d7de56a1c15a3cf9099f26ed9260ed9"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/root-README.md",
+      "bytes": 7082,
+      "sha256": "4dba923581d0bb391adbc4328fe2dfc00275001b25c4f5b1f2d76c9df3b126a5"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/testing/ACCEPTANCE.md",
+      "bytes": 1970,
+      "sha256": "49073c7fa0a76ece490aad07809498986603adce503ca6c3fdc4ccb350b441a3"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/testing/FLUTTER_UI_ACCEPTANCE.md",
+      "bytes": 594,
+      "sha256": "a505877951642462c40a1c3cfdbee24137dae83096790edd236c328ce79869c5"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261005-before-doc-sync/testing/UI_INTERACTION_CASES.md",
+      "bytes": 10659,
+      "sha256": "2df4ab3be78d11ff7807942c1ba15f98186567c4f1eb45e05651b07228600cbf"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-production/README.md",
+      "bytes": 156,
+      "sha256": "d61c1c2d98f6e2bf9e6a689b2b677910d772fbe95f9423a8988bff060cceeb33"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-production/docs/ADS-TEST-20261007.md",
+      "bytes": 5755,
+      "sha256": "dcaa6ccd4c60351f055dd1c0008b6619045325d39b811a7f9fe20e1d13495695"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-production/docs/ADS-UI-20261007.md",
+      "bytes": 3979,
+      "sha256": "c7cb11238e2712db3d511b502aef7c77f0149179078d61a7233c5b862418c00d"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-production/docs/DECISIONS.md",
+      "bytes": 25859,
+      "sha256": "8eb427c0c99f44ad1f8355c8b4c16dbb30192411c3e8787123723b74c6709a37"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-production/docs/PROJECT_INDEX.md",
+      "bytes": 8104,
+      "sha256": "e0eda1ac1f3d975e80583bcec522d1debd8e622b971c2640a2733cbfacfb4fab"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-production/docs/UI-COMMERCIAL.md",
+      "bytes": 8694,
+      "sha256": "a4179d545b47158862175db08026f5c5feb6d57abe627ff6b62ebc661cea0b24"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-production/docs/UI-PRD.md",
+      "bytes": 17233,
+      "sha256": "6a6628379ebdc9b1aac792a4d68bdfdf1a40a23cc6132223794e91aa7326cf62"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-production/testing/ACCEPTANCE.md",
+      "bytes": 5116,
+      "sha256": "40b912c87dc8c16969c3420a306e1435ccb3f8aa5f07a1ee891f39037584ef3c"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-production/testing/UI_INTERACTION_CASES.md",
+      "bytes": 18954,
+      "sha256": "7716ff7feef81a805eef8565030a6f848b873b46543e6108245209afa8c6bb13"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-ui-dev3/README.md",
+      "bytes": 7756,
+      "sha256": "b7ea0cbb524953446b340652d95ea0944d702568282f050098481ce1109662c5"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-ui-dev3/docs/ADS-TEST-20261007.md",
+      "bytes": 6077,
+      "sha256": "bb007317d0550a1e6e99612e3ff1b0c9f56d594349fbe11f565b813ed6806f3c"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-ui-dev3/docs/PROJECT_INDEX.md",
+      "bytes": 7649,
+      "sha256": "1b6ed5b7aa2af6a4a01a5e6c241567c7e2ff984de411207fd850a80b57265081"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-ui-dev3/docs/UI-COMMERCIAL.md",
+      "bytes": 7165,
+      "sha256": "985f0133f102155ee6888b2b4f83e534a1a2a032358b550b5c7c2ef044b4edd9"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-ui-dev3/docs/UI-PRD.md",
+      "bytes": 15658,
+      "sha256": "3b5c558501ade27f19431733b987ac14a7f1beaf01408fadbd7ca91b9007f128"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-ui-dev3/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 4771,
+      "sha256": "0595875f9195a7b7f1bb9a56951cd7579fadc51573fd441c595da4e08bda4c28"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-ui-dev3/testing/ACCEPTANCE.md",
+      "bytes": 4678,
+      "sha256": "b549186f28fc3f70fb2fbafbffb52e40f4908e98b26005fe1c048de83bac8b3d"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-ui-dev3/testing/ADS_TEST_ACCEPTANCE-20261007.md",
+      "bytes": 4626,
+      "sha256": "90747915c5599076e606bc26baa468953779d46634230bdfefcbf7dde12d68ca"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ads-ui-dev3/testing/UI_INTERACTION_CASES.md",
+      "bytes": 18576,
+      "sha256": "4c14c3690a78e9d4d21e3ad41fdb24b7cbc1aea220e62e60aff2b3b111f5de0a"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ui-nine-dev5/README.md",
+      "bytes": 8012,
+      "sha256": "5e7641d7c158d245d22fc4d2f1a07c664e31856e3daf0fa2d48a6016668717bb"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ui-nine-dev5/docs/ADS-UI-20261007.md",
+      "bytes": 3136,
+      "sha256": "c437058947263de52d3673f0ee1f4e578ef4df3802ceb786db340495c7e6a229"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ui-nine-dev5/docs/DECISIONS.md",
+      "bytes": 25253,
+      "sha256": "64f4638d1173d8d83d9df6ba55930034d6e0d96ddc1af0f359edfdb1e5e1c60e"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ui-nine-dev5/docs/PROJECT_INDEX.md",
+      "bytes": 7790,
+      "sha256": "dd6614be9e2a317faaa01c255f48ee796a2f62764f6a6038987b5218e406b6cd"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ui-nine-dev5/docs/UI-COMMERCIAL.md",
+      "bytes": 8895,
+      "sha256": "e2598b2f647cee60fd4aca440c07ccc57e4e3d640adc19f89072643fbd878980"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ui-nine-dev5/docs/UI-PRD.md",
+      "bytes": 17328,
+      "sha256": "d089f8a785ef2fc776a7c78f3b9b1b67c3b2cb9910b5bde330aeea3ff5c63e50"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ui-nine-dev5/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 5594,
+      "sha256": "845c9ef36994c9aae735346eb83f58b3b5c920990b41fb814d3b466b46ff529c"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ui-nine-dev5/testing/ACCEPTANCE.md",
+      "bytes": 4850,
+      "sha256": "e30c556d28b44059f686b79ba61621fc61bea22b914cfa43c9ea70c090d58fef"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ui-nine-dev5/testing/ADS_UI_ACCEPTANCE-20261007.md",
+      "bytes": 2960,
+      "sha256": "7bf668242dda7e19906b2e0c1742baef967de0489d7871022fe3ccc68f6c2280"
+    },
+    {
+      "project_file": "ai 英语/docs/history/20261007-before-ui-nine-dev5/testing/UI_INTERACTION_CASES.md",
+      "bytes": 18688,
+      "sha256": "dfe91bab28143e53957b463d3bd9400dd904aa77cbfc67aee9f44c20f556823d"
+    },
+    {
+      "project_file": "ai 英语/docs/history/PENDING-before-disabled-ads-20261008.md",
+      "bytes": 4755,
+      "sha256": "8ee9e540c5e01b1274de1b25e9d41aa3bff7a592c8ed35db742d3080c089940f"
+    },
+    {
+      "project_file": "ai 英语/docs/history/content-dev2-20261006/CONTENT-BUILD-20261006.md",
+      "bytes": 9361,
+      "sha256": "b48b76c70b4cc50533c57f22a0600247b5a8701c18ce8aea01efad56cb70006e"
+    },
+    {
+      "project_file": "ai 英语/docs/history/content-dev3-20261006/CONTENT-BUILD-20261006.md",
+      "bytes": 8876,
+      "sha256": "29b7f81c367bfe605aa0f717b915d631fe09e34e7a165ac665754bdd40892898"
+    },
+    {
+      "project_file": "ai 英语/docs/history/content-dev4-20261006/CONTENT-BUILD-20261006.md",
+      "bytes": 9213,
+      "sha256": "f0ac05acd1e8c1960a3d28f02429b14f108a4ba652b521d69eca3524fc1e9d1b"
+    },
+    {
+      "project_file": "ai 英语/docs/history/content-dev5-20261006/CONTENT-BUILD-20261006.md",
+      "bytes": 9732,
+      "sha256": "cfe80bcf7ee94a8e8e81e232941dce6abf4b43e594b2e6b6ea56b7e192d11598"
+    },
+    {
+      "project_file": "ai 英语/docs/history/content-dev6-20261006/CONTENT-BUILD-20261006.md",
+      "bytes": 9662,
+      "sha256": "7994fa3610ba76e9281ae13618f17d84aa989c83b377ed9f7a7181302eda0881"
+    },
+    {
+      "project_file": "ai 英语/docs/history/content-dev7-20261006/CONTENT-BUILD-20261006.md",
+      "bytes": 9872,
+      "sha256": "1ec5b029eba1aefc68d63fe684429a8883e9a912dfa55e7bb11547e437dab150"
+    },
+    {
+      "project_file": "ai 英语/docs/history/content-dev8-20261006/CONTENT-BUILD-20261006.md",
+      "bytes": 10647,
+      "sha256": "de561472fa23b31461292133517ba821fc3d5978e8438010635f357718b4626d"
+    },
+    {
+      "project_file": "ai 英语/docs/reference-ui/Flutter页面映射-0.2.0历史.md",
+      "bytes": 3280,
+      "sha256": "642700944ac90ed9c770ce0b9b3d0fdce813d1714fc6ab23aa3a6f21c81f4767"
+    },
+    {
+      "project_file": "ai 英语/docs/reference-ui/Flutter页面映射-0.3.0历史.md",
+      "bytes": 2481,
+      "sha256": "2be05b25c790ce35d358588e5073257183f7dd619eed0a54d6439db0983079b3"
+    },
+    {
+      "project_file": "ai 英语/docs/reference-ui/Flutter页面映射-0.4.0.md",
+      "bytes": 16217,
+      "sha256": "99703988f8140d28a1a627ecdaafada1f3b33af2ced3c8da5cb8bc3d332a0b3b"
+    },
+    {
+      "project_file": "ai 英语/docs/reference-ui/Flutter页面映射-0.7.0历史.md",
+      "bytes": 10204,
+      "sha256": "8fd50caa5cd764cc497b4f3b64205c4266b23df05491dd0240a8ed7ca45df24e"
+    },
+    {
+      "project_file": "ai 英语/docs/reference-ui/Flutter页面映射-0.8.0历史.md",
+      "bytes": 9301,
+      "sha256": "1ca55424cce01c02fd86a39fc365891d00f0119d46de7c0cb946c98650aadb66"
+    },
+    {
+      "project_file": "ai 英语/docs/reference-ui/Flutter页面映射-0.8.1历史.md",
+      "bytes": 9724,
+      "sha256": "6cd2112a8977fe4f5d9e96de00a3c84cc9098f7b657378a18dd621e4f6b7a613"
+    },
+    {
+      "project_file": "ai 英语/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 5928,
+      "sha256": "09a69e8051a67dfee07652a99cdb5eaa7b0a4901a049feb66e516f6daeb28de1"
+    },
+    {
+      "project_file": "ai 英语/docs/reference-ui/页面与交互-初稿历史.md",
+      "bytes": 8230,
+      "sha256": "086cd1737195bad91e719b1f45cde699ad7bc398e3f5ab4e349a9b2548400bfd"
+    },
+    {
+      "project_file": "ai 英语/docs/reference-ui/页面与交互.md",
+      "bytes": 13413,
+      "sha256": "02f25f2b7c840d0f2148c9bbcc1fd5c70f563caf87b60b468f3dca8e10874282"
+    },
+    {
+      "project_file": "ai 英语/testing/ACCEPTANCE.md",
+      "bytes": 5593,
+      "sha256": "03427e7d70dbfaae1a1d70bd2160d3923e8db8d3a19787dab79b5f05423d02bb"
+    },
+    {
+      "project_file": "ai 英语/testing/ADS_FIREBASE_ACCEPTANCE-20261007.md",
+      "bytes": 2245,
+      "sha256": "6251f83c0e1f7cb1c8458b6531e57ea4dc281b3397c227e890249500a1c4df34"
+    },
+    {
+      "project_file": "ai 英语/testing/ADS_TEST_ACCEPTANCE-20261007.md",
+      "bytes": 4815,
+      "sha256": "830c2b2cbc7f55ef54c85a058f90f28894e44001b15764e2380f58db76139158"
+    },
+    {
+      "project_file": "ai 英语/testing/ADS_UI_ACCEPTANCE-20261007.md",
+      "bytes": 3226,
+      "sha256": "42dbca0479c01fd56b2fc1dadce78bb619d95433c15ca547218a855e2a90c206"
+    },
+    {
+      "project_file": "ai 英语/testing/AI_LUNA_PUSH_ACCEPTANCE-0.11.0.md",
+      "bytes": 2875,
+      "sha256": "0a8aed080e476f548ed3bfb197fb7294cd711088e9892d9db5b1dfbe8b489596"
+    },
+    {
+      "project_file": "ai 英语/testing/AI_TEXT_ACCEPTANCE-0.10.0.md",
+      "bytes": 7544,
+      "sha256": "8c1f7975da4352fd0a4440078e025a13fc79cbbda635970064c01711f215daeb"
+    },
+    {
+      "project_file": "ai 英语/testing/AI_VOICE_ACCEPTANCE-0.12.0.md",
+      "bytes": 3876,
+      "sha256": "33e99b34acb2c46361258a76b0f8f889e535f0527f491343ba9f23b681da56da"
+    },
+    {
+      "project_file": "ai 英语/testing/CONTENT_PACK_CASES-20261005.md",
+      "bytes": 4656,
+      "sha256": "9cc99f474a6df116f3f47de155322fc899d2461b3015178c0c344a60d3e8f3d8"
+    },
+    {
+      "project_file": "ai 英语/testing/COURSE_CONTENT_ACCEPTANCE-0.7.0.md",
+      "bytes": 3015,
+      "sha256": "792415eb50e3a9b9681e33d1f38f7fa468f3305b9e2f9f09253de4c820de796d"
+    },
+    {
+      "project_file": "ai 英语/testing/FLUTTER_UI_ACCEPTANCE-0.2.0历史.md",
+      "bytes": 3794,
+      "sha256": "0374daafdaa746e1fc02fef46532bea14676e823e2c2da36be66d45b9710dc80"
+    },
+    {
+      "project_file": "ai 英语/testing/FLUTTER_UI_ACCEPTANCE-0.4.0本地验收.md",
+      "bytes": 4788,
+      "sha256": "926be7a7298001ea9f76cb43141cc6660cb401ef5881a3a8bb457d6faafb9c98"
+    },
+    {
+      "project_file": "ai 英语/testing/FLUTTER_UI_ACCEPTANCE-0.4.0真机第一轮.md",
+      "bytes": 6054,
+      "sha256": "04af7da77ce8c18a9bc69c347a63ca56eab031e2fccfa54cf0d86e3797d8c6eb"
+    },
+    {
+      "project_file": "ai 英语/testing/FLUTTER_UI_ACCEPTANCE-0.6.0历史.md",
+      "bytes": 2750,
+      "sha256": "4cc059528792c7bfe488d8a961f3997614a8aaed4c82c68fa1f6d374ea86eba9"
+    },
+    {
+      "project_file": "ai 英语/testing/FLUTTER_UI_ACCEPTANCE.md",
+      "bytes": 830,
+      "sha256": "113a491af69ff7c9e35d2afa0b98f7bd6a0954b6a9164770e1a28e322ac10fac"
+    },
+    {
+      "project_file": "ai 英语/testing/FULL_REGRESSION-0.13.0-20261005.md",
+      "bytes": 4232,
+      "sha256": "d5840fca4da55c7f605142e878c25b5c8fb1fc18b5fad9b6d18de3c4fd1d4c5d"
+    },
+    {
+      "project_file": "ai 英语/testing/LOCAL_CORE_ACCEPTANCE-0.9.0.md",
+      "bytes": 2487,
+      "sha256": "a5f5df7935ffe8b57350530b5767bcd6d0cfd3c763a0092055ce0f9e1954433b"
+    },
+    {
+      "project_file": "ai 英语/testing/LOCAL_CORE_ACCEPTANCE-0.9.1.md",
+      "bytes": 2488,
+      "sha256": "1832a9f984dec157eaf3bb77220f1c8a3799428043021f338f104bf2fd740c10"
+    },
+    {
+      "project_file": "ai 英语/testing/LOCAL_CORE_ACCEPTANCE-0.9.2.md",
+      "bytes": 2252,
+      "sha256": "8b38f346f6943c40f85ed22ce0aac54eaba4c943b2b1370957b11c268fbeb59f"
+    },
+    {
+      "project_file": "ai 英语/testing/LOCAL_CORE_DEVICE_CASES-0.9.0.md",
+      "bytes": 2274,
+      "sha256": "8ff83ee5ca5867668632d916a7890af3bdb3cf24b1710f015ae347cde6e91eb4"
+    },
+    {
+      "project_file": "ai 英语/testing/LOCAL_CORE_DEVICE_CASES-0.9.1.md",
+      "bytes": 3962,
+      "sha256": "56c3133d81e5600b8eacc0230f41b4718c201350d568f55b7a2cbb0b1908dc5c"
+    },
+    {
+      "project_file": "ai 英语/testing/LOCAL_CORE_DEVICE_CASES-0.9.2.md",
+      "bytes": 2369,
+      "sha256": "54a57e7ef08524149a8e2bc85b5d7f56aab7aa827448bca5f88b08cc366e65a7"
+    },
+    {
+      "project_file": "ai 英语/testing/LOCAL_LEARNING_ACCEPTANCE-0.8.0.md",
+      "bytes": 2865,
+      "sha256": "360b82f57eeab7cee96b72d2814104f012dfa1a465cdc3754f574b806ccbcf95"
+    },
+    {
+      "project_file": "ai 英语/testing/MICRO_MOTION_ACCEPTANCE-0.8.2.md",
+      "bytes": 1091,
+      "sha256": "16c2730695aa39e6b6759edb91a2fb90e636764aaff22a8263f38f727bfc0f0a"
+    },
+    {
+      "project_file": "ai 英语/testing/SECONDARY_DETAIL_ACCEPTANCE-0.8.1.md",
+      "bytes": 1300,
+      "sha256": "cf2f28933f85953e60de74b9bbe165804614d584b9de96b6f0cd5a9b4ab6e665"
+    },
+    {
+      "project_file": "ai 英语/testing/TEXT_FRAMEWORK_ACCEPTANCE-0.13.0.md",
+      "bytes": 3637,
+      "sha256": "41f8ead98e292931ba0da4f4e95d80735ceb3e02c9c6dee70333c45b7fd09ea7"
+    },
+    {
+      "project_file": "ai 英语/testing/UI_INTERACTION_CASES.md",
+      "bytes": 19386,
+      "sha256": "945e2a981bf730b39021f63c204b88183abcf169368b2a7789608f2359b93986"
+    },
+    {
+      "project_file": "ai 英语/testing/UI_NINE_ACCEPTANCE-20261007.md",
+      "bytes": 2721,
+      "sha256": "e7b624d91dbed2b6743897ab4570252d8931366f9ad343bf3193eca2106be470"
+    },
+    {
+      "project_file": "ai 英语/testing/ads-layout-review-20261007/REVIEW.md",
+      "bytes": 9481,
+      "sha256": "d0fdf49ef5edd46663e1b742066f79f0540deeca30044808eb871c13aeeae1a6"
+    },
+    {
+      "project_file": "ai 英语/testing/ads-production-20261007/RESULTS.md",
+      "bytes": 2177,
+      "sha256": "1992a434d35b80f38f5484dff90963de6dae2f86e7ffc4df4ca98ec38002eee8"
+    },
+    {
+      "project_file": "ai 英语/testing/ads-test-20261007/RESULTS.md",
+      "bytes": 2648,
+      "sha256": "af106bbb9e433caa995dd5f02696a369056a569846c3d661980dd41936f556b6"
+    },
+    {
+      "project_file": "ai 英语/testing/ads-test-20261007/pixel8/RESULTS.md",
+      "bytes": 1553,
+      "sha256": "2aae5af3c483453dc20f1c9dd544954d1fb1d02676b605f0b6b5a8ecda6103cd"
+    },
+    {
+      "project_file": "ai 英语/testing/ads-test-20261007/source-before/README.md",
+      "bytes": 6929,
+      "sha256": "15bc314fe8ebde9260611317ea73cb40af3ef00dbb3274229bddf52fbd82672c"
+    },
+    {
+      "project_file": "ai 英语/testing/ads-test-20261007/source-before/docs/PROJECT_INDEX.md",
+      "bytes": 7150,
+      "sha256": "5387b7797cddce7aa4ed1bc7c1f13ad61848c58e7de540d4274cd9023d0a4347"
+    },
+    {
+      "project_file": "ai 英语/testing/ads-test-20261007/source-before/docs/UI-COMMERCIAL.md",
+      "bytes": 5781,
+      "sha256": "77f7789e9e08ab42cc5f6839b350260231bd03eccae41b24366e0ce2ed1a4b98"
+    },
+    {
+      "project_file": "ai 英语/testing/ads-test-20261007/source-before/docs/UI-PRD.md",
+      "bytes": 14636,
+      "sha256": "c9b6b0d54d5a31f58a8d6ff8effb8fad5faab16edf9763d4e7dee5d7de16bdf6"
+    },
+    {
+      "project_file": "ai 英语/testing/ads-test-20261007-dev2/RESULTS.md",
+      "bytes": 3930,
+      "sha256": "93edd7120f761af40cf1797eab2779b39ce1fac57f03d47b90071c6379798675"
+    },
+    {
+      "project_file": "ai 英语/testing/ads-ui-20261007-dev3/RESULTS.md",
+      "bytes": 4597,
+      "sha256": "0e7a1fb32ebc0ac90a6b921c911d7883cf1d42441b285d4baeeb25222e971039"
+    },
+    {
+      "project_file": "ai 英语/testing/ads-ui-20261007-dev4/RESULTS.md",
+      "bytes": 5677,
+      "sha256": "707bb41c2eb70b494a5830b2111b1db8d16d821d5cf41247a9f2b2ab5c02d327"
+    },
+    {
+      "project_file": "ai 英语/testing/auto-entry-20261006-dev11/RESULTS.md",
+      "bytes": 2597,
+      "sha256": "999bef8e608c38c65798d859a3f889422379c7ab9207fa0e0f8ff0ffe0e12e3b"
+    },
+    {
+      "project_file": "ai 英语/testing/content-device-20261006-dev9/CASES.md",
+      "bytes": 1639,
+      "sha256": "685051045eddaecde4fb98feb6fdf7680e7ba89b649d847de765957c25b961ff"
+    },
+    {
+      "project_file": "ai 英语/testing/content-device-20261006-dev9/REPORT.md",
+      "bytes": 2134,
+      "sha256": "187220f966b3dc9f5dac4185ca36e808f82186a7831ef8934ea0af4a9f56e925"
+    },
+    {
+      "project_file": "ai 英语/testing/content-download-20261006-dev10/CASES.md",
+      "bytes": 2302,
+      "sha256": "d9df4a1f37211469bd4e4ef4f2b7186ff7d45833e0076c1deb68313e50a09d79"
+    },
+    {
+      "project_file": "ai 英语/testing/content-download-20261006-dev10/REPORT.md",
+      "bytes": 3159,
+      "sha256": "120c6f12eccc333a655ca213a08468a0129d252bb4bab30fbbb3eb3ff53dd508"
+    },
+    {
+      "project_file": "ai 英语/testing/device-0.9.1-20261005/FIXES.md",
+      "bytes": 1307,
+      "sha256": "5284ed07a61ccc5e8786ccab4925feea79cdb722287d9b67bb78d266137819c4"
+    },
+    {
+      "project_file": "ai 英语/testing/device-0.9.1-20261005/REPORT.md",
+      "bytes": 5251,
+      "sha256": "9de2ee03b7cdcda86f1689028f186305f332578a35b608dbbcf1c5e217a33e1a"
+    },
+    {
+      "project_file": "ai 英语/testing/device-0.9.2-20261005/REPORT.md",
+      "bytes": 2655,
+      "sha256": "692ed4863922f5a594926fdd92a85e20de114f8c5720038853c8c162412d369f"
+    },
+    {
+      "project_file": "ai 英语/testing/device-0.9.2-20261005/physical-pixel8/REPORT.md",
+      "bytes": 4810,
+      "sha256": "1c07f4cd048055297ea278584033b0fe5b0ec7ae042b545b2d5f0c631eec817b"
+    },
+    {
+      "project_file": "ai 英语/testing/device-test-20261009/source/flutter_app/README.md",
+      "bytes": 911,
+      "sha256": "a0fad587a3cfebc25cb904e140e884ee4db12ad73265a5643e359b7423079f4c"
+    },
+    {
+      "project_file": "ai 英语/testing/firebase-production-20261007/source-before/README.md",
+      "bytes": 8448,
+      "sha256": "415d1ae3473afde161dd99db24e521cc64139d366d78cd8fccb18a4bb57b4e2e"
+    },
+    {
+      "project_file": "ai 英语/testing/firebase-production-20261007/source-before/docs/DECISIONS.md",
+      "bytes": 25859,
+      "sha256": "8eb427c0c99f44ad1f8355c8b4c16dbb30192411c3e8787123723b74c6709a37"
+    },
+    {
+      "project_file": "ai 英语/testing/firebase-production-20261007/source-before/docs/PROJECT_INDEX.md",
+      "bytes": 8104,
+      "sha256": "e0eda1ac1f3d975e80583bcec522d1debd8e622b971c2640a2733cbfacfb4fab"
+    },
+    {
+      "project_file": "ai 英语/testing/firebase-production-20261007/source-before/docs/UI-COMMERCIAL.md",
+      "bytes": 8694,
+      "sha256": "a4179d545b47158862175db08026f5c5feb6d57abe627ff6b62ebc661cea0b24"
+    },
+    {
+      "project_file": "ai 英语/testing/firebase-production-20261007/source-before/docs/UI-PRD.md",
+      "bytes": 17233,
+      "sha256": "6a6628379ebdc9b1aac792a4d68bdfdf1a40a23cc6132223794e91aa7326cf62"
+    },
+    {
+      "project_file": "ai 英语/testing/flutter-ui/2026-10-04-pixel8/STATUS.md",
+      "bytes": 369,
+      "sha256": "c15030f5a0aa26a92c0ca648cefc50fb8bf7800874159fbe8f77bcd75f509d02"
+    },
+    {
+      "project_file": "ai 英语/testing/flutter-ui/2026-10-04-v3-pixel8/first-round-before-density-polish/STATUS.md",
+      "bytes": 136,
+      "sha256": "2a3d28a68960e2b5ae9fb5a1ca12c71e7515b3dd91cc51d68f41fddccae89dfb"
+    },
+    {
+      "project_file": "ai 英语/testing/flutter-ui/2026-10-04-v4-local/STATUS.md",
+      "bytes": 251,
+      "sha256": "fb284387de4ef9ccb44ce2aa44f774378b4d1f03c2a5396cbfb7a59c9252cf2e"
+    },
+    {
+      "project_file": "ai 英语/testing/flutter-ui/2026-10-04-v4-pixel8/QA-REPORT.md",
+      "bytes": 7558,
+      "sha256": "08d7ce7633fb71d03c44469c3d0f52a08fb009b271eb07a61c0af03761adc307"
+    },
+    {
+      "project_file": "ai 英语/testing/flutter-ui/2026-10-04-v5-pixel8/QA-REPORT.md",
+      "bytes": 5240,
+      "sha256": "aac16cb6f79fb4e9380192a8613288e90b44b72e7ede287e749ce2d9064fcb0a"
+    },
+    {
+      "project_file": "ai 英语/testing/flutter-ui/2026-10-04-v6-pixel8-install/INSTALL-REPORT.md",
+      "bytes": 1383,
+      "sha256": "f6bc88e91f33144adb5a0a5c449c3b4cd00f4c3350fed0616955e07f9e238676"
+    },
+    {
+      "project_file": "ai 英语/testing/flutter-ui/failed-landscape-1/STATUS.md",
+      "bytes": 332,
+      "sha256": "2b0a14591c30c34517e3090c5a113cca2d55d4389dd3ef48e3f0ecbb4b077342"
+    },
+    {
+      "project_file": "ai 英语/testing/integration-20261006/CASES.md",
+      "bytes": 1760,
+      "sha256": "2c9ed2b21b0f533febb982109e6fe67e9b8bbef0ef28a0948af07b24de6cbd4a"
+    },
+    {
+      "project_file": "ai 英语/testing/integration-20261006/REPORT.md",
+      "bytes": 3096,
+      "sha256": "426e02a4dd4801443b3e47eb94382f709863f92b396781f36f330cbf3f11d193"
+    },
+    {
+      "project_file": "ai 英语/testing/isolated-device-20261009/RESULTS.md",
+      "bytes": 2601,
+      "sha256": "053283ad4c9cd1b615f7bb32de00b0f1b879802fc1a4a1a9d8b2fd66ccae4083"
+    },
+    {
+      "project_file": "ai 英语/testing/isolated-device-20261009/SCOPE.md",
+      "bytes": 726,
+      "sha256": "456035855c110badd8a6c64386fafc751dca2073255c1264c60f419616f4bcb5"
+    },
+    {
+      "project_file": "ai 英语/testing/no-ads-production-20261008/CONFIG-FIX-RESULTS.md",
+      "bytes": 1652,
+      "sha256": "6195e2d4da2cf856b9d36dd9e9f99584ddf694d211b34f7a175545b48b687880"
+    },
+    {
+      "project_file": "ai 英语/testing/no-ads-production-20261008/DECISION.md",
+      "bytes": 999,
+      "sha256": "9e328430cc89059319a2650fd463b300ca8a8e6f09244a47df4ad277d0549ae9"
+    },
+    {
+      "project_file": "ai 英语/testing/no-ads-production-20261008/RESULTS.md",
+      "bytes": 2213,
+      "sha256": "ad3457012e63d3df3063fea31e6622bb6a11b5b3a21fde2b5ccadd914958b7a8"
+    },
+    {
+      "project_file": "ai 英语/testing/no-ads-production-20261008/source-before/README.md",
+      "bytes": 8616,
+      "sha256": "058b0d0c95723c49d505145836be9009d377e78b9891fb418d1413108f56e609"
+    },
+    {
+      "project_file": "ai 英语/testing/no-ads-production-20261008/source-before/docs/DECISIONS.md",
+      "bytes": 27311,
+      "sha256": "60c0db1d9ff97a984f5b5dcd8699f63fc6cfedb89f8003fcf31f6e2e3bb54734"
+    },
+    {
+      "project_file": "ai 英语/testing/no-ads-production-20261008/source-before/docs/PROJECT_INDEX.md",
+      "bytes": 1120,
+      "sha256": "7d5df8e1c4920ee03888ad253645449f7aa2029158dfc4c5b07c72aac79c46a9"
+    },
+    {
+      "project_file": "ai 英语/testing/no-ads-production-20261008/source-before/docs/UI-COMMERCIAL.md",
+      "bytes": 9024,
+      "sha256": "15ed9e45c1dd9fe43647c2e5b524bc074f49f4e0c3db1c06d8d331be005d88e7"
+    },
+    {
+      "project_file": "ai 英语/testing/no-ads-production-20261008/source-before/docs/UI-PRD.md",
+      "bytes": 17639,
+      "sha256": "81716fbf0ea255498c1307392156f69900b9cb2ccdf5613a45fbe9d6995fe95b"
+    },
+    {
+      "project_file": "ai 英语/testing/production-aab-20261007/REPORT.md",
+      "bytes": 3716,
+      "sha256": "87d3dc801e0c5833db1e65b2dda40dc84bdf822c05f885ec24664e1ce2c903ea"
+    },
+    {
+      "project_file": "ai 英语/testing/production-aab-20261007/source-before/README.md",
+      "bytes": 6219,
+      "sha256": "98b334c491ac65462f436cf3314f039ad0a26a7cb4848a55bebc295297069b89"
+    },
+    {
+      "project_file": "ai 英语/testing/production-aab-20261007/source-before/docs/DECISIONS.md",
+      "bytes": 22008,
+      "sha256": "5ee66dfc07866b4d00fa6476e2950d6bfb7a45d1a74c1149a9a0ab1348647b78"
+    },
+    {
+      "project_file": "ai 英语/testing/production-aab-20261007/source-before/docs/PRODUCTION-IDENTITY-20261006.md",
+      "bytes": 3790,
+      "sha256": "3dd3e56b50b76e034d2fe5b3cb97ba6e0b344c17e7ba321bb395f37c38f1c08f"
+    },
+    {
+      "project_file": "ai 英语/testing/production-aab-20261007/source-before/docs/PROJECT_INDEX.md",
+      "bytes": 6139,
+      "sha256": "0cca1037d058e7ee07025387a88a6da6c098da8c856dcd9b59817d3cae7063f4"
+    },
+    {
+      "project_file": "ai 英语/testing/production-aab-20261007/source-before/docs/UI-PRD.md",
+      "bytes": 14162,
+      "sha256": "7284eaf10368b1a1932fe73906a5a6233637f6a08feb47294e49a6d9fb25dfae"
+    },
+    {
+      "project_file": "ai 英语/testing/production-aab-20261007/source-before/testing/ACCEPTANCE.md",
+      "bytes": 4011,
+      "sha256": "ca04a1118b688a64bf550a3e621de7b983801583e368f264fa4dd47bc6a03db8"
+    },
+    {
+      "project_file": "ai 英语/testing/production-aab-20261007/source-before/testing/UI_INTERACTION_CASES.md",
+      "bytes": 17234,
+      "sha256": "84f3ad63179192a445e5d7b9a2d42ece9a469bbe3b7993043cd9224fa2cb961a"
+    },
+    {
+      "project_file": "ai 英语/testing/production-identity-20261006/REPORT.md",
+      "bytes": 1947,
+      "sha256": "aba6fd8f19375bcc979b97cb5b5dd2fee40d75c451f3cc8f400839163292d6cd"
+    },
+    {
+      "project_file": "ai 英语/testing/production-identity-20261006/source-before/README.md",
+      "bytes": 5665,
+      "sha256": "c30ebd2c1d7048baa1513cea6c84139b80e731a681e36b90a88bb5f066081366"
+    },
+    {
+      "project_file": "ai 英语/testing/production-identity-20261006/source-before/docs/AUTO-ENTRY-0.14.0-dev11.md",
+      "bytes": 4321,
+      "sha256": "f8a11b517bad8a4e24370d946b9769b462830501c876c6ac2819b8be423c69f7"
+    },
+    {
+      "project_file": "ai 英语/testing/production-identity-20261006/source-before/docs/PROJECT_INDEX.md",
+      "bytes": 5372,
+      "sha256": "7e0edf167d1ae259ef3c64caf3076f7809dd313092e28cea219b8becfef5c216"
+    },
+    {
+      "project_file": "ai 英语/testing/production-identity-20261006/source-before/testing/UI_INTERACTION_CASES.md",
+      "bytes": 16247,
+      "sha256": "70589e349d76be511235dad45436606f219b17cf49b0dd357a29483f93008c1a"
+    },
+    {
+      "project_file": "ai 英语/testing/production-identity-20261006/source-before/testing/auto-entry-20261006-dev11/RESULTS.md",
+      "bytes": 2597,
+      "sha256": "999bef8e608c38c65798d859a3f889422379c7ab9207fa0e0f8ff0ffe0e12e3b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.5.0-before-visual/docs/README.md",
+      "bytes": 4089,
+      "sha256": "58dff16bb05a69f91c94f2ba97ab4afef9db738c9803c6171a966019e5ab3272"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.5.0-before-visual/docs/docs/PROJECT_INDEX.md",
+      "bytes": 1808,
+      "sha256": "c00db83448f367420a05797204c82d5bf2f6c8f7aa88b990be48fde41edb851e"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.5.0-before-visual/docs/docs/UI-COMMERCIAL.md",
+      "bytes": 1136,
+      "sha256": "2aa170e8245630d7ed36d1dbe06a74a9eecd798819c2046cec7c118831677ec6"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.5.0-before-visual/docs/docs/UI-PRD.md",
+      "bytes": 7140,
+      "sha256": "17d6b674efdf5861e597d0ee25c5302efc7dc2da411838a705be11ba61efb4a9"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.5.0-before-visual/docs/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 13519,
+      "sha256": "7dce92157706be512a469f724af55533688088b13f183294bbc67fcce6300546"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.5.0-before-visual/docs/flutter_app/README.md",
+      "bytes": 690,
+      "sha256": "f66044ea4876d9bddd00c93186d9e09ca341afdda105ed3ba6b53a0f93fc5c26"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.5.0-before-visual/docs/testing/FLUTTER_UI_ACCEPTANCE.md",
+      "bytes": 4151,
+      "sha256": "273c966c516a510d14d40bf75a2afe69dd201583b57c45afd1baeb9205caa549"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/README.md",
+      "bytes": 3092,
+      "sha256": "a4795677273ec1e1a0f703b9b041d587b674e1c26fe90f4e02bcb9ede0557aa6"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/COMMERCIAL-draft.md",
+      "bytes": 2696,
+      "sha256": "f0c10b54ad58afb5a83542ab2373be96f05b1ddcf7f0e92145dd710a88424ba3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/DECISIONS.md",
+      "bytes": 7600,
+      "sha256": "bef60b636b2aeae9387ab983195e4eeeb39f1e450db5160a7ce32ce95dfc5120"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/PRD-draft.md",
+      "bytes": 4669,
+      "sha256": "c8bb91c887f04e01c87d79be5c36ce0d8bbec4530aff00bc133d1d376dcbdd08"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/PROJECT_INDEX.md",
+      "bytes": 1755,
+      "sha256": "dd5de971c9cb01d2842ce169806dfb2c46990f269478a7fd5b8b5a60eebef4ba"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/README-0.2.0历史.md",
+      "bytes": 2773,
+      "sha256": "03b11661ede61fee59464c28c83c04290aca2ab01308e83b5063aa8794bc403b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/README-0.4.0真机第一轮.md",
+      "bytes": 4034,
+      "sha256": "0ee0ad42292dfc7099152f1b6100ec44380b7e15abb946812273b7d9a5ff2187"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/UI-COMMERCIAL.md",
+      "bytes": 1136,
+      "sha256": "38a18f326a79b4dfbff24d4f45c0d95ba716deae45d507b53791ed6833796650"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/UI-MAIN-FLOW-0.4.0.md",
+      "bytes": 4217,
+      "sha256": "b10ff6934c53fbc8285474afbd0cd2e44fe2b7010ffd8a3a0807181aa3e35f1b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/UI-POLISH-0.3.0.md",
+      "bytes": 4362,
+      "sha256": "398ffa35af4d55c1e9c3d9ea6d715f06b140718ea1179bed1d72ab980876ca51"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/UI-POLISH-0.5.0.md",
+      "bytes": 2581,
+      "sha256": "57b5d92d8bf4259004bec8e95c999a73a15db510f467f802b60da6ea984992e7"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/UI-PRD-0.3.0历史.md",
+      "bytes": 4111,
+      "sha256": "22724fcaab0fdad3931c63c633390994625e903aa47bf75bb22800fe0d4eed29"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/UI-PRD-0.4.0真机第一轮.md",
+      "bytes": 5989,
+      "sha256": "450e3d2c7c1b648e7c7872aa9548a61c80dcb6e6461ad0b440bb7c883f5125c8"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/UI-PRD.md",
+      "bytes": 7755,
+      "sha256": "8f5bfa8fae8f943d91d3e5b568b0ea10d4a3be7c31c0638013b5a23a76ffc256"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/UI-VISUAL-0.6.0.md",
+      "bytes": 1546,
+      "sha256": "65f6589cc5fb12dd9faf1089f24461a96f75f528f857b5d0a8cc2c6e0f020379"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/reference-ui/Flutter页面映射-0.2.0历史.md",
+      "bytes": 3280,
+      "sha256": "642700944ac90ed9c770ce0b9b3d0fdce813d1714fc6ab23aa3a6f21c81f4767"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/reference-ui/Flutter页面映射-0.3.0历史.md",
+      "bytes": 2481,
+      "sha256": "2be05b25c790ce35d358588e5073257183f7dd619eed0a54d6439db0983079b3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/reference-ui/Flutter页面映射-0.4.0.md",
+      "bytes": 16217,
+      "sha256": "99703988f8140d28a1a627ecdaafada1f3b33af2ced3c8da5cb8bc3d332a0b3b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 9549,
+      "sha256": "eafee4c65bce1d1981207c5ec4fb29cefff7b25514b123ca9beff14e66cea9c5"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/reference-ui/页面与交互-初稿历史.md",
+      "bytes": 8230,
+      "sha256": "086cd1737195bad91e719b1f45cde699ad7bc398e3f5ab4e349a9b2548400bfd"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.6.0-before-content/docs/reference-ui/页面与交互.md",
+      "bytes": 13419,
+      "sha256": "9a7e3dc106f5db045b6138284e9f5bc09deef7baa4db649c6b88ce2ba6f43417"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/README.md",
+      "bytes": 3317,
+      "sha256": "495458ae4a597b50548a12e6486063b8688026bfea55098828f96927de5c09e9"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/COMMERCIAL-draft.md",
+      "bytes": 2696,
+      "sha256": "f0c10b54ad58afb5a83542ab2373be96f05b1ddcf7f0e92145dd710a88424ba3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/COURSE-CONTENT-0.7.0.md",
+      "bytes": 3277,
+      "sha256": "a72cbceb71839c54676e2740d880008e0b121aa7fddb32a7a2783db64153c4a4"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/DECISIONS.md",
+      "bytes": 8595,
+      "sha256": "a3be07517595f6e35b34a990c7bd61805caf0a6fa37d38d9cd24d58d36ecf33a"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/PRD-draft.md",
+      "bytes": 4669,
+      "sha256": "c8bb91c887f04e01c87d79be5c36ce0d8bbec4530aff00bc133d1d376dcbdd08"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/PROJECT_INDEX.md",
+      "bytes": 2411,
+      "sha256": "621a6c420117903b955a902b72983dbf5118dc5f63b4d825709f4b8564bdf821"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/README-0.2.0历史.md",
+      "bytes": 2773,
+      "sha256": "03b11661ede61fee59464c28c83c04290aca2ab01308e83b5063aa8794bc403b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/README-0.4.0真机第一轮.md",
+      "bytes": 4034,
+      "sha256": "0ee0ad42292dfc7099152f1b6100ec44380b7e15abb946812273b7d9a5ff2187"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/UI-COMMERCIAL.md",
+      "bytes": 1410,
+      "sha256": "c086559f50778a93dd59d06e66a8ceade7471dee0525166a5e8e7d271ccf9a28"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/UI-MAIN-FLOW-0.4.0.md",
+      "bytes": 4217,
+      "sha256": "b10ff6934c53fbc8285474afbd0cd2e44fe2b7010ffd8a3a0807181aa3e35f1b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/UI-POLISH-0.3.0.md",
+      "bytes": 4362,
+      "sha256": "398ffa35af4d55c1e9c3d9ea6d715f06b140718ea1179bed1d72ab980876ca51"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/UI-POLISH-0.5.0.md",
+      "bytes": 2581,
+      "sha256": "57b5d92d8bf4259004bec8e95c999a73a15db510f467f802b60da6ea984992e7"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/UI-PRD-0.3.0历史.md",
+      "bytes": 4111,
+      "sha256": "22724fcaab0fdad3931c63c633390994625e903aa47bf75bb22800fe0d4eed29"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/UI-PRD-0.4.0真机第一轮.md",
+      "bytes": 5989,
+      "sha256": "450e3d2c7c1b648e7c7872aa9548a61c80dcb6e6461ad0b440bb7c883f5125c8"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/UI-PRD.md",
+      "bytes": 7517,
+      "sha256": "91fc0786bdfe6ad3f207bf34a04be21409136ad4c69480d76a1c230d1180785b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/UI-VISUAL-0.6.0.md",
+      "bytes": 1546,
+      "sha256": "65f6589cc5fb12dd9faf1089f24461a96f75f528f857b5d0a8cc2c6e0f020379"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/reference-ui/Flutter页面映射-0.2.0历史.md",
+      "bytes": 3280,
+      "sha256": "642700944ac90ed9c770ce0b9b3d0fdce813d1714fc6ab23aa3a6f21c81f4767"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/reference-ui/Flutter页面映射-0.3.0历史.md",
+      "bytes": 2481,
+      "sha256": "2be05b25c790ce35d358588e5073257183f7dd619eed0a54d6439db0983079b3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/reference-ui/Flutter页面映射-0.4.0.md",
+      "bytes": 16217,
+      "sha256": "99703988f8140d28a1a627ecdaafada1f3b33af2ced3c8da5cb8bc3d332a0b3b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 10204,
+      "sha256": "8fd50caa5cd764cc497b4f3b64205c4266b23df05491dd0240a8ed7ca45df24e"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/reference-ui/页面与交互-初稿历史.md",
+      "bytes": 8230,
+      "sha256": "086cd1737195bad91e719b1f45cde699ad7bc398e3f5ab4e349a9b2548400bfd"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/docs/reference-ui/页面与交互.md",
+      "bytes": 13419,
+      "sha256": "9a7e3dc106f5db045b6138284e9f5bc09deef7baa4db649c6b88ce2ba6f43417"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.7.0-before-practice/flutter_app/README.md",
+      "bytes": 936,
+      "sha256": "099521cf1b9cf6a1e664cc5036b10a24cedf21e5ec0bed94e6752cf9c05ab09c"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/README.md",
+      "bytes": 3520,
+      "sha256": "5c290900a7db3d1941434c23b4515ac75ff609551c8bd504b31c53d76cb5821b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/COMMERCIAL-draft.md",
+      "bytes": 2696,
+      "sha256": "f0c10b54ad58afb5a83542ab2373be96f05b1ddcf7f0e92145dd710a88424ba3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/COURSE-CONTENT-0.7.0.md",
+      "bytes": 3277,
+      "sha256": "a72cbceb71839c54676e2740d880008e0b121aa7fddb32a7a2783db64153c4a4"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/DECISIONS.md",
+      "bytes": 9891,
+      "sha256": "60d089df556fb158eff6cff7ebc007bbef853dda3c3cdafb62024fb3f26f8d85"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/LOCAL-LEARNING-0.8.0.md",
+      "bytes": 7493,
+      "sha256": "56446ebfb659414d74a7c8d683154ed4643a88cc355935f13d4accdadc2d9caa"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/PRD-draft.md",
+      "bytes": 4669,
+      "sha256": "c8bb91c887f04e01c87d79be5c36ce0d8bbec4530aff00bc133d1d376dcbdd08"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/PROJECT_INDEX.md",
+      "bytes": 2090,
+      "sha256": "1f25daa551c6e2b7c14f27784321c7c9d5f3b31e6ad5a2a5c0b4f996f1185155"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/README-0.2.0历史.md",
+      "bytes": 2773,
+      "sha256": "03b11661ede61fee59464c28c83c04290aca2ab01308e83b5063aa8794bc403b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/README-0.4.0真机第一轮.md",
+      "bytes": 4034,
+      "sha256": "0ee0ad42292dfc7099152f1b6100ec44380b7e15abb946812273b7d9a5ff2187"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/UI-COMMERCIAL.md",
+      "bytes": 1620,
+      "sha256": "3b23e7ce6d47ef562bd2f1c668b62db6187771b659044f4892e24931eff60a54"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/UI-MAIN-FLOW-0.4.0.md",
+      "bytes": 4217,
+      "sha256": "b10ff6934c53fbc8285474afbd0cd2e44fe2b7010ffd8a3a0807181aa3e35f1b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/UI-POLISH-0.3.0.md",
+      "bytes": 4362,
+      "sha256": "398ffa35af4d55c1e9c3d9ea6d715f06b140718ea1179bed1d72ab980876ca51"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/UI-POLISH-0.5.0.md",
+      "bytes": 2581,
+      "sha256": "57b5d92d8bf4259004bec8e95c999a73a15db510f467f802b60da6ea984992e7"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/UI-PRD-0.3.0历史.md",
+      "bytes": 4111,
+      "sha256": "22724fcaab0fdad3931c63c633390994625e903aa47bf75bb22800fe0d4eed29"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/UI-PRD-0.4.0真机第一轮.md",
+      "bytes": 5989,
+      "sha256": "450e3d2c7c1b648e7c7872aa9548a61c80dcb6e6461ad0b440bb7c883f5125c8"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/UI-PRD.md",
+      "bytes": 7884,
+      "sha256": "eb912f80bc1de3f6d686ecc418ef558ca7cf4b83854289af5518d8efae498f05"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/UI-VISUAL-0.6.0.md",
+      "bytes": 1546,
+      "sha256": "65f6589cc5fb12dd9faf1089f24461a96f75f528f857b5d0a8cc2c6e0f020379"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/reference-ui/Flutter页面映射-0.2.0历史.md",
+      "bytes": 3280,
+      "sha256": "642700944ac90ed9c770ce0b9b3d0fdce813d1714fc6ab23aa3a6f21c81f4767"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/reference-ui/Flutter页面映射-0.3.0历史.md",
+      "bytes": 2481,
+      "sha256": "2be05b25c790ce35d358588e5073257183f7dd619eed0a54d6439db0983079b3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/reference-ui/Flutter页面映射-0.4.0.md",
+      "bytes": 16217,
+      "sha256": "99703988f8140d28a1a627ecdaafada1f3b33af2ced3c8da5cb8bc3d332a0b3b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/reference-ui/Flutter页面映射-0.7.0历史.md",
+      "bytes": 10204,
+      "sha256": "8fd50caa5cd764cc497b4f3b64205c4266b23df05491dd0240a8ed7ca45df24e"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 9301,
+      "sha256": "1ca55424cce01c02fd86a39fc365891d00f0119d46de7c0cb946c98650aadb66"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/reference-ui/页面与交互-初稿历史.md",
+      "bytes": 8230,
+      "sha256": "086cd1737195bad91e719b1f45cde699ad7bc398e3f5ab4e349a9b2548400bfd"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/docs/reference-ui/页面与交互.md",
+      "bytes": 13419,
+      "sha256": "9a7e3dc106f5db045b6138284e9f5bc09deef7baa4db649c6b88ce2ba6f43417"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.0-before-detail-qa/flutter_app/README.md",
+      "bytes": 786,
+      "sha256": "4bc74d6c4381510c4b987a5abb186358230823c61b1d77e7d2925b8c1864ea81"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/README.md",
+      "bytes": 3719,
+      "sha256": "a70be6b83ecc23248dc3463fdf922ae35971647207e69b8ece418371856984fe"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/COMMERCIAL-draft.md",
+      "bytes": 2696,
+      "sha256": "f0c10b54ad58afb5a83542ab2373be96f05b1ddcf7f0e92145dd710a88424ba3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/COURSE-CONTENT-0.7.0.md",
+      "bytes": 3277,
+      "sha256": "a72cbceb71839c54676e2740d880008e0b121aa7fddb32a7a2783db64153c4a4"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/DECISIONS.md",
+      "bytes": 10444,
+      "sha256": "e1c057fbae105b8207feaa06f84d0826eb9a198c62b8070e3d301b4d1ce9b202"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/LOCAL-LEARNING-0.8.0.md",
+      "bytes": 7493,
+      "sha256": "56446ebfb659414d74a7c8d683154ed4643a88cc355935f13d4accdadc2d9caa"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/PRD-draft.md",
+      "bytes": 4669,
+      "sha256": "c8bb91c887f04e01c87d79be5c36ce0d8bbec4530aff00bc133d1d376dcbdd08"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/PROJECT_INDEX.md",
+      "bytes": 2166,
+      "sha256": "3856601555f7d0d784c729b4fd2de8a868b47f720c3cca15db9c6fb884add6b3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/README-0.2.0历史.md",
+      "bytes": 2773,
+      "sha256": "03b11661ede61fee59464c28c83c04290aca2ab01308e83b5063aa8794bc403b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/README-0.4.0真机第一轮.md",
+      "bytes": 4034,
+      "sha256": "0ee0ad42292dfc7099152f1b6100ec44380b7e15abb946812273b7d9a5ff2187"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/SECONDARY-DETAIL-UI-0.8.1.md",
+      "bytes": 7368,
+      "sha256": "39457c2cb68a4a09fddde4c9201211dd31d914f6f48a7498af03885b161113f6"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/UI-COMMERCIAL.md",
+      "bytes": 1620,
+      "sha256": "00412326289613452d4f05fcb9ad8a3c5a25004714cedb53bc1c4b1fe02042bf"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/UI-MAIN-FLOW-0.4.0.md",
+      "bytes": 4217,
+      "sha256": "b10ff6934c53fbc8285474afbd0cd2e44fe2b7010ffd8a3a0807181aa3e35f1b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/UI-POLISH-0.3.0.md",
+      "bytes": 4362,
+      "sha256": "398ffa35af4d55c1e9c3d9ea6d715f06b140718ea1179bed1d72ab980876ca51"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/UI-POLISH-0.5.0.md",
+      "bytes": 2581,
+      "sha256": "57b5d92d8bf4259004bec8e95c999a73a15db510f467f802b60da6ea984992e7"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/UI-PRD-0.3.0历史.md",
+      "bytes": 4111,
+      "sha256": "22724fcaab0fdad3931c63c633390994625e903aa47bf75bb22800fe0d4eed29"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/UI-PRD-0.4.0真机第一轮.md",
+      "bytes": 5989,
+      "sha256": "450e3d2c7c1b648e7c7872aa9548a61c80dcb6e6461ad0b440bb7c883f5125c8"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/UI-PRD.md",
+      "bytes": 8041,
+      "sha256": "de8a6c2ecfc3770f8f0ae2701672e1f6b736223cef8b7221bfad8db47aa15ca2"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/UI-VISUAL-0.6.0.md",
+      "bytes": 1546,
+      "sha256": "65f6589cc5fb12dd9faf1089f24461a96f75f528f857b5d0a8cc2c6e0f020379"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/reference-ui/Flutter页面映射-0.2.0历史.md",
+      "bytes": 3280,
+      "sha256": "642700944ac90ed9c770ce0b9b3d0fdce813d1714fc6ab23aa3a6f21c81f4767"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/reference-ui/Flutter页面映射-0.3.0历史.md",
+      "bytes": 2481,
+      "sha256": "2be05b25c790ce35d358588e5073257183f7dd619eed0a54d6439db0983079b3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/reference-ui/Flutter页面映射-0.4.0.md",
+      "bytes": 16217,
+      "sha256": "99703988f8140d28a1a627ecdaafada1f3b33af2ced3c8da5cb8bc3d332a0b3b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/reference-ui/Flutter页面映射-0.7.0历史.md",
+      "bytes": 10204,
+      "sha256": "8fd50caa5cd764cc497b4f3b64205c4266b23df05491dd0240a8ed7ca45df24e"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/reference-ui/Flutter页面映射-0.8.0历史.md",
+      "bytes": 9301,
+      "sha256": "1ca55424cce01c02fd86a39fc365891d00f0119d46de7c0cb946c98650aadb66"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 9724,
+      "sha256": "6cd2112a8977fe4f5d9e96de00a3c84cc9098f7b657378a18dd621e4f6b7a613"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/reference-ui/页面与交互-初稿历史.md",
+      "bytes": 8230,
+      "sha256": "086cd1737195bad91e719b1f45cde699ad7bc398e3f5ab4e349a9b2548400bfd"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/docs/reference-ui/页面与交互.md",
+      "bytes": 13419,
+      "sha256": "9a7e3dc106f5db045b6138284e9f5bc09deef7baa4db649c6b88ce2ba6f43417"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.1-before-motion/flutter_app/README.md",
+      "bytes": 777,
+      "sha256": "4fa094ba34bd55a59429e52e2a0006e7b399af8e48cba4fa70dcf73d86619ea1"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/COMMERCIAL-draft.md",
+      "bytes": 2696,
+      "sha256": "f0c10b54ad58afb5a83542ab2373be96f05b1ddcf7f0e92145dd710a88424ba3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/COURSE-CONTENT-0.7.0.md",
+      "bytes": 3277,
+      "sha256": "a72cbceb71839c54676e2740d880008e0b121aa7fddb32a7a2783db64153c4a4"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/DECISIONS.md",
+      "bytes": 10920,
+      "sha256": "3ca2d352a82fe1056de035da0ad762824d2e6f6df81a75205a3dc8080765942c"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/LOCAL-LEARNING-0.8.0.md",
+      "bytes": 7493,
+      "sha256": "56446ebfb659414d74a7c8d683154ed4643a88cc355935f13d4accdadc2d9caa"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/MICRO-MOTION-0.8.2.md",
+      "bytes": 4411,
+      "sha256": "18288ef939c0fd381744752c4fd24a45c46914dc5306c671c2956f0182ce9633"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/PRD-draft.md",
+      "bytes": 4669,
+      "sha256": "c8bb91c887f04e01c87d79be5c36ce0d8bbec4530aff00bc133d1d376dcbdd08"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/PROJECT_INDEX.md",
+      "bytes": 2384,
+      "sha256": "d9f75a28170c732e9c4c5c5a08951edf24995e93fabbf31ae4ff0d652b43f527"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/README-0.2.0历史.md",
+      "bytes": 2773,
+      "sha256": "03b11661ede61fee59464c28c83c04290aca2ab01308e83b5063aa8794bc403b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/README-0.4.0真机第一轮.md",
+      "bytes": 4034,
+      "sha256": "0ee0ad42292dfc7099152f1b6100ec44380b7e15abb946812273b7d9a5ff2187"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/SECONDARY-DETAIL-UI-0.8.1.md",
+      "bytes": 7368,
+      "sha256": "39457c2cb68a4a09fddde4c9201211dd31d914f6f48a7498af03885b161113f6"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/UI-COMMERCIAL.md",
+      "bytes": 1719,
+      "sha256": "d45fe4b2695fbcda8e0f7aa8ad76c4b821eb155c619109567f2044f8721fb48f"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/UI-MAIN-FLOW-0.4.0.md",
+      "bytes": 4217,
+      "sha256": "b10ff6934c53fbc8285474afbd0cd2e44fe2b7010ffd8a3a0807181aa3e35f1b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/UI-POLISH-0.3.0.md",
+      "bytes": 4362,
+      "sha256": "398ffa35af4d55c1e9c3d9ea6d715f06b140718ea1179bed1d72ab980876ca51"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/UI-POLISH-0.5.0.md",
+      "bytes": 2581,
+      "sha256": "57b5d92d8bf4259004bec8e95c999a73a15db510f467f802b60da6ea984992e7"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/UI-PRD-0.3.0历史.md",
+      "bytes": 4111,
+      "sha256": "22724fcaab0fdad3931c63c633390994625e903aa47bf75bb22800fe0d4eed29"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/UI-PRD-0.4.0真机第一轮.md",
+      "bytes": 5989,
+      "sha256": "450e3d2c7c1b648e7c7872aa9548a61c80dcb6e6461ad0b440bb7c883f5125c8"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/UI-PRD.md",
+      "bytes": 8654,
+      "sha256": "2f85e6a437fece40b1e5ff04a68c55d28944c77dd7c9be00731300a4dcc587db"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/UI-VISUAL-0.6.0.md",
+      "bytes": 1546,
+      "sha256": "65f6589cc5fb12dd9faf1089f24461a96f75f528f857b5d0a8cc2c6e0f020379"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/reference-ui/Flutter页面映射-0.2.0历史.md",
+      "bytes": 3280,
+      "sha256": "642700944ac90ed9c770ce0b9b3d0fdce813d1714fc6ab23aa3a6f21c81f4767"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/reference-ui/Flutter页面映射-0.3.0历史.md",
+      "bytes": 2481,
+      "sha256": "2be05b25c790ce35d358588e5073257183f7dd619eed0a54d6439db0983079b3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/reference-ui/Flutter页面映射-0.4.0.md",
+      "bytes": 16217,
+      "sha256": "99703988f8140d28a1a627ecdaafada1f3b33af2ced3c8da5cb8bc3d332a0b3b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/reference-ui/Flutter页面映射-0.7.0历史.md",
+      "bytes": 10204,
+      "sha256": "8fd50caa5cd764cc497b4f3b64205c4266b23df05491dd0240a8ed7ca45df24e"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/reference-ui/Flutter页面映射-0.8.0历史.md",
+      "bytes": 9301,
+      "sha256": "1ca55424cce01c02fd86a39fc365891d00f0119d46de7c0cb946c98650aadb66"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/reference-ui/Flutter页面映射-0.8.1历史.md",
+      "bytes": 9724,
+      "sha256": "6cd2112a8977fe4f5d9e96de00a3c84cc9098f7b657378a18dd621e4f6b7a613"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 9805,
+      "sha256": "071a5ef2de363caf1b0c35d473d4ddde9516abcdbcb627d313f61bc30d6d3643"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/reference-ui/页面与交互-初稿历史.md",
+      "bytes": 8230,
+      "sha256": "086cd1737195bad91e719b1f45cde699ad7bc398e3f5ab4e349a9b2548400bfd"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.8.2-before-local-core/docs/reference-ui/页面与交互.md",
+      "bytes": 13419,
+      "sha256": "9a7e3dc106f5db045b6138284e9f5bc09deef7baa4db649c6b88ce2ba6f43417"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/README.md",
+      "bytes": 2515,
+      "sha256": "f3fde407f932378257cd93f40a341fc81467cfa7b07d2e35ada2c1a9c80c5cd0"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/docs/DECISIONS.md",
+      "bytes": 11572,
+      "sha256": "60eaf29843dc56c81ed4b5cd974a3a987e23d7d2b77dc6b71ac496b42a6022af"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/docs/LOCAL-CORE-0.9.0.md",
+      "bytes": 5500,
+      "sha256": "f87a7052263f1d784d59a49a408537e4d9f8d42d3ce907ac528f8bb8b0dcd255"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/docs/PROJECT_INDEX.md",
+      "bytes": 1582,
+      "sha256": "db12a22974c26d6d507aa8dd053974e0501d3983d64760cfc73f8b2eb3a944af"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/docs/UI-COMMERCIAL.md",
+      "bytes": 1990,
+      "sha256": "fb7ea0b5fbc6027e2c6858cfb00ba61f310671e74bfa0119aa41025221e70e53"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/docs/UI-PRD.md",
+      "bytes": 9297,
+      "sha256": "01618e44dc103031ef2942490a38e8ff6e138f799017cec04f036a76f3233162"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 11720,
+      "sha256": "20ec1267726d797dc2ec7c095e1c0ed70f371debb7f7cd0a3470eb34a4288dab"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/flutter_app/README.md",
+      "bytes": 619,
+      "sha256": "23153d380e3498d13c733dc830078df0b58f12dfc58f83f36943ab350c727f81"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/testing/FLUTTER_UI_ACCEPTANCE.md",
+      "bytes": 594,
+      "sha256": "a505877951642462c40a1c3cfdbee24137dae83096790edd236c328ce79869c5"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/testing/LOCAL_CORE_ACCEPTANCE-0.9.0.md",
+      "bytes": 2487,
+      "sha256": "a5f5df7935ffe8b57350530b5767bcd6d0cfd3c763a0092055ce0f9e1954433b"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/testing/LOCAL_CORE_DEVICE_CASES-0.9.0.md",
+      "bytes": 2274,
+      "sha256": "8ff83ee5ca5867668632d916a7890af3bdb3cf24b1710f015ae347cde6e91eb4"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.0-before-device-fixes/testing/UI_INTERACTION_CASES.md",
+      "bytes": 3899,
+      "sha256": "ab0cf927555138bbd4293993e37dead0193b664450ebd4b1f0431311d50506b0"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.1-before-read-count-fix/README.md",
+      "bytes": 2850,
+      "sha256": "495ddb2aac38d2f4520d63ffb5b028068c25a77e9d6d4b4148c0e229625087a3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.1-before-read-count-fix/docs/DECISIONS.md",
+      "bytes": 12066,
+      "sha256": "a054791e2f56a8452fee933be3b435153d4ae76e1c583ac029b619f3cb1d70e3"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.1-before-read-count-fix/docs/PROJECT_INDEX.md",
+      "bytes": 1942,
+      "sha256": "032a9cd7e52b2d293c934a681ba4b497bc84b178dd32f5c0f3b65110fbb2e653"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.1-before-read-count-fix/docs/UI-PRD.md",
+      "bytes": 9745,
+      "sha256": "979471d97ed37bd3f33760f45d7ccacd794b1508b2678078a3ad5e68989c50f7"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.1-before-read-count-fix/docs/reference-ui/Flutter页面映射.md",
+      "bytes": 12350,
+      "sha256": "068436a68c8c48f16dad0a05a43f2efb90cd3f22d40c8c3f7a821d3012750735"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.1-before-read-count-fix/flutter_app/README.md",
+      "bytes": 892,
+      "sha256": "3a461b5d925a8aa99226618fcb8f3aee39e5ebc9f70ef7113d9e4a4e614a8263"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.1-before-read-count-fix/testing/LOCAL_CORE_ACCEPTANCE-0.9.1.md",
+      "bytes": 2488,
+      "sha256": "1832a9f984dec157eaf3bb77220f1c8a3799428043021f338f104bf2fd740c10"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.1-before-read-count-fix/testing/UI_INTERACTION_CASES.md",
+      "bytes": 4415,
+      "sha256": "40e877f477c14f2d2c36e0172ad50f0af82d30fa02991f05ddc7223386e0a9fc"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.2-before-ai/README.md",
+      "bytes": 3245,
+      "sha256": "b12bc9fa3ae625b8296620f8ad073d48657579f8f080ccefb13037cb13b4d025"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.2-before-ai/docs/PROJECT_INDEX.md",
+      "bytes": 2171,
+      "sha256": "bb503cc771ba29ddc7f6f46e64bcf8fd002c65306eefffd9f3f93ac0d217877f"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.2-before-ai/docs/UI-COMMERCIAL.md",
+      "bytes": 1990,
+      "sha256": "fb7ea0b5fbc6027e2c6858cfb00ba61f310671e74bfa0119aa41025221e70e53"
+    },
+    {
+      "project_file": "ai 英语/testing/source-0.9.2-before-ai/docs/UI-PRD.md",
+      "bytes": 10428,
+      "sha256": "51fddd5ed04da56562d5fb7efbc98d9ab2d21fe84cd7c99a275f36873ab23ab0"
+    },
+    {
+      "project_file": "ai 英语/testing/ui-nine-20261007-dev5/RESULTS.md",
+      "bytes": 4350,
+      "sha256": "01170cd20eae8a5c4b2d90adbaa2a21e0c305a2aac5ebdc2f2ba46e45ae8441e"
+    },
+    {
+      "project_file": "ai 英语/testing/ui-thirteen-20261009/RESULTS.md",
+      "bytes": 4572,
+      "sha256": "80f6b7c6f4622b6445c8fdab571838654e65d686fa4d02f9ceb63f177f7db0e8"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/api/FUTURE_PROVIDER_CONTRACT.md",
+      "bytes": 1223,
+      "sha256": "68597d4c57d5016beb54030e910e7736db99a98a7798fb725cb6a58e876a691c"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/design/ONBOARDING_REDESIGN.md",
+      "bytes": 2023,
+      "sha256": "8e9c63a0c1622ac69d7ac2549a354ce038bd18e991a2db1dc2322c90483603ae"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/design/PULSELIO_FACE_PULSE_COMPONENT_AUDIT_2026-09-30.md",
+      "bytes": 4595,
+      "sha256": "35ebe9610309b05c4b3584063a8d99fcf2890fcfc90a42fb7db18bb5e01b0e2f"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/design/PULSELIO_FACE_SCAN_RUNTIME_AUDIT_2026-09-30.md",
+      "bytes": 4037,
+      "sha256": "dd662ea94263eb527899a973de54883093a7accc9dc0cb5b3df7f90e8424fab2"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/design/US_WOMEN_45_75_REVIEW_V1_6.md",
+      "bytes": 4393,
+      "sha256": "450c2a95657ed29a351b16a392ed1a873bcae6f97adc3467e0d2a7d30d4d557f"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/index/PROJECT_INDEX.md",
+      "bytes": 9416,
+      "sha256": "bdf70e3f03eceb2d5aff252f5d9d9698b28a154b1a0c9b75bbd6e74fff46ea16"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/maintenance/HANDOFF.md",
+      "bytes": 1419,
+      "sha256": "74f659340c1549c726b8e8996006520a725ec87ccc82806b23d2f0f1b7b4d991"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/maintenance/PACKAGING_MACHINE_HANDOFF_ZH.md",
+      "bytes": 10674,
+      "sha256": "49a78cf491143940d705d9e9e85f47391e5cf31b24853512573c2fcf9ec05c3a"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_AI_BACKEND_V0_1.md",
+      "bytes": 2135,
+      "sha256": "6599f2c3f0d99457da6d4740997af6acef23bac08c1d075144779d293c301b75"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_10.md",
+      "bytes": 4802,
+      "sha256": "4b77c39929f888b23e300a1d070a4e99bb9958fd8fb35090178456d0a715bf78"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_11.md",
+      "bytes": 5495,
+      "sha256": "550c771adc3001bb6b2e05bacec0701ec7f1f83bc7f5a5d317ddeb79c3c0f84c"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_12.md",
+      "bytes": 3180,
+      "sha256": "4b8ec9deb0d7e5ba9d01b02e894aa4de74aa69ed9659d5223dcfeba61072cb6d"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_14.md",
+      "bytes": 1565,
+      "sha256": "6ca04498d8348fbf3bced4d6bfc909c7336235fddc964937d89c7d0fa649365c"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_15.md",
+      "bytes": 2076,
+      "sha256": "1a67e730775810448d89449929201ed0627755a29e8fd988818d8f2f1c1e6463"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_16.md",
+      "bytes": 2494,
+      "sha256": "c6260a103b14be4160ce306d60477215cfcbb38766f0edf8d2ba4f16c282d653"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_17.md",
+      "bytes": 2198,
+      "sha256": "1c824deda534d32bf4c73cf1a881fc5da128a4dab974e68dba8109af71fbe450"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_18.md",
+      "bytes": 2717,
+      "sha256": "c20b4c53633bff3b5660aeee072767b340e6214a8034122706fc2469b30cba9d"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_19.md",
+      "bytes": 2840,
+      "sha256": "e43d5bd3de46f168905da8730bd9ef9c5c653cdc8eaceb5699cbc7e5ca7f03ef"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_20.md",
+      "bytes": 2451,
+      "sha256": "3c58c3982cb9f208c23dad9f4e73c57bec1e3f997232e55f0393d82e0c403705"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_21.md",
+      "bytes": 10724,
+      "sha256": "c8b635aef49ef8c27e8675dabab21bc76b83cb3ead67be65b7ea9fb73db49375"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_8.md",
+      "bytes": 10443,
+      "sha256": "24ea5ccc52c9339df8333febe45cd260b3eb01966850b285ff15f62d711e7124"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/LUMASIGNAL_PRD_V1_9.md",
+      "bytes": 5876,
+      "sha256": "14fb1a1cc0913187ad00a1494badbef53727af6644339e19f0a2ea4872ef080d"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/prd/V1_DEMO_PRD.md",
+      "bytes": 1945,
+      "sha256": "47cdc7f3a138b3b978fee85029f404e28328fcbecd68fc65817456003e9d7ca8"
+    },
+    {
+      "project_file": "vivasignal-demo/docs/qa/FUNCTION_RECORDING_AUDIT_1.13.0.md",
+      "bytes": 3701,
+      "sha256": "a293dca3b510149fbc7e2e94dec45b611b7d5d57927e0d097906595fc825587e"
+    },
+    {
+      "project_file": "vivasignal-demo/ui/ROUTE_MATRIX.md",
+      "bytes": 2500,
+      "sha256": "6015536be08f337b5431fa9c97c4150e5ccdefb4823cfb14f0b8c5141d6d19ac"
+    }
+  ]
+}

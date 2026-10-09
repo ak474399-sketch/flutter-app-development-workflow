@@ -1,0 +1,5 @@
+{
+  "assets": [],
+  "zip": null,
+  "note": "assets 条目包含 file、sha256、width、height、alpha_channel（true/false）。只验证 PNG 文件结构和 alpha 通道；不判断像素是否透明、视觉、商店政策。zip 条目包含 file、members（精确平铺文件名清单）。"
+}

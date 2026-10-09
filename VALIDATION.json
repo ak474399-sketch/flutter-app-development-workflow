@@ -1,0 +1,149 @@
+{
+  "environment": {
+    "flutter": "3.41.9",
+    "scope": "local isolated tests; no device or live-service validation",
+    "dart": "3.11.5"
+  },
+  "steps": [
+    {
+      "command": [
+        "/Applications/Xcode.app/Contents/Developer/usr/bin/python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "cwd": "skills/flutter-app-development-workflow",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "pub",
+        "get"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/app_growth_sdk",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "analyze"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/app_growth_sdk",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "test",
+        "--reporter",
+        "expanded"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/app_growth_sdk",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "pub",
+        "get"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/app_iaa_sdk",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "analyze"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/app_iaa_sdk",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "test",
+        "--reporter",
+        "expanded"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/app_iaa_sdk",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "pub",
+        "get"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/app_subscription_sdk",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "analyze"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/app_subscription_sdk",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "test",
+        "--reporter",
+        "expanded"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/app_subscription_sdk",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "pub",
+        "get"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/example_app",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "analyze"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/example_app",
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "/opt/homebrew/bin/flutter",
+        "build",
+        "apk",
+        "--debug"
+      ],
+      "cwd": "skills/flutter-app-development-workflow/assets/sdk/example_app",
+      "exit_code": 0
+    }
+  ],
+  "ok": true,
+  "expected_tests": {
+    "workflow_and_exports": 15,
+    "growth": 7,
+    "iaa": 8,
+    "subscription": 11
+  },
+  "behavior_evaluation": "same-agent walkthrough; no independent model evaluation",
+  "limitations": [
+    "Real Firebase/Meta receipt and attribution not verified",
+    "Real ad fill, SSV and income not verified",
+    "Per-product verification backend and store transactions not provided or verified",
+    "iOS Meta adapter and iOS builds not implemented/verified"
+  ],
+  "android_debug_host": {
+    "bytes": 169974894,
+    "sha256": "9b06de15595769f23a92231f24f58fc0c70f6f93df88bb0c5a237aed48fe8d1f",
+    "file": "skills/flutter-app-development-workflow/assets/sdk/example_app/build/app/outputs/flutter-apk/app-debug.apk"
+  }
+}

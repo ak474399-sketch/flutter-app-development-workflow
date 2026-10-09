@@ -1,0 +1,14 @@
+**/.dart_tool/
+**/build/
+**/.flutter-plugins-dependencies
+**/android/local.properties
+**/__pycache__/
+*.pyc
+.DS_Store
+.env
+.env.*
+!*.example
+**/google-services.json
+**/GoogleService-Info.plist
+*.jks
+*.keystore
