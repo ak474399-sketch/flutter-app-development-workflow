@@ -145,5 +145,12 @@
     "bytes": 169974894,
     "sha256": "9b06de15595769f23a92231f24f58fc0c70f6f93df88bb0c5a237aed48fe8d1f",
     "file": "skills/flutter-app-development-workflow/assets/sdk/example_app/build/app/outputs/flutter-apk/app-debug.apk"
+  },
+  "clean_checkout_build": {
+    "source_commit": "865ef5f358ccbd1287d49a39de53949d8dd8508d",
+    "result": "passed",
+    "scope": "fresh Git clone, no untracked local configuration, Android debug only",
+    "apk_sha256": "111c614d124f59f0599fdabd33440985820b019fc731190409c2d1cf9ef699d8",
+    "bytes": 154773495
   }
 }
