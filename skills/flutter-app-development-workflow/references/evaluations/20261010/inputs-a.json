@@ -1,0 +1,34 @@
+{
+  "scope": "隔离评估场景；下面是构造的测试输入，不是历史用户原话或真实项目验收。只输出答复，不执行设备、网络、图像生成或商业操作。",
+  "scenarios": [
+    {
+      "id": "A1",
+      "mode": "首次调用",
+      "user": "用这个 skill 帮我做同类型 Flutter 应用。我这里只有一份逆向报告：样本 v2，已确认有启动页、三页引导、首页和详情页；恢复购买页和失败状态未观察。先和我对齐，暂时不做页面。",
+      "files": [],
+      "prior_decisions": []
+    },
+    {
+      "id": "A2",
+      "mode": "续办",
+      "user": "可以，按这个方向把首页做出来。",
+      "previous_assistant": "这是首页代表设计图的方案：沿用已确认冰蓝和机器人，减轻边框与投影。确认后制作 Flutter 首页；新版实际页面稍后提交验收。",
+      "project_state": {"stage": "3", "design_direction": "confirmed", "flutter_home": "not_implemented", "ui_acceptance": null},
+      "prior_decisions": ["只做页面；服务器和 AI 暂缓", "本轮只应用首页，不扩展其它页"]
+    },
+    {
+      "id": "A3",
+      "mode": "续办",
+      "user": "课程目录都接上了，样课能做题，可以交付完整版了吧？",
+      "project_state": {"stage": "5", "catalog": "complete", "content": "3 sample lessons; rest absent", "ui_acceptance": "confirmed for version 0.2"},
+      "prior_decisions": ["正式范围的正文、翻译和答案全部补齐，不接受样课替代完整内容", "只接本地教材，本轮不做在线生成"]
+    },
+    {
+      "id": "A4",
+      "mode": "续办",
+      "user": "继续接 SDK。广告和订阅都不做，业务没有服务器和 AI。Firebase 和 Facebook 的配置还没提供。",
+      "project_state": {"stage": "8", "ui_and_local_acceptance": "confirmed", "backend_and_ai_scope": "user explicitly confirmed not applicable"},
+      "prior_decisions": ["Android-first", "Firebase Analytics、Crashlytics、Remote Config 和 Facebook App Events 必选", "广告与订阅不选"]
+    }
+  ]
+}

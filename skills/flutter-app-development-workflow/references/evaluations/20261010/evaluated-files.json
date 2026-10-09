@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-10",
+  "final_file_sha256": {
+    "SKILL.md": "c116cd9411dac107fafbc74928753621f54bd08dfcc2d3b14ccbaf1d1b41a398",
+    "references/guidance.md": "e07c208117c68bddb3759c485933f6efbef503928ada1eaeff90356279135c74",
+    "scripts/check_workflow.py": "15bc5d553ff8e066e4672d420cdf491ba822ad8c16df905f4d65d6298a72d8fe",
+    "tests/test_checks.py": "ab8c8d33c6bbdedfe85019658bf59a328bfea8127813808cbb353e8e18cc59b7"
+  },
+  "behavior_method": "Two independent agents evaluated 8 constructed scenarios; a fresh third agent retested A2. Parent manually reviewed outputs; not a separate independent grader or cross-model study.",
+  "limits": [
+    "No live-service/device validation",
+    "No exhaustive proof of guidance correctness"
+  ]
+}

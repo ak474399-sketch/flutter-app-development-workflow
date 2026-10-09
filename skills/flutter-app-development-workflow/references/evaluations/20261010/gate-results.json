@@ -1,0 +1,309 @@
+{
+  "method": "CLI fixtures; same-machine structural checks, not user acceptance",
+  "cases": [
+    {
+      "case": "empty_template_structure",
+      "expect_accept": true,
+      "actual_accept": true,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": true,
+        "errors": [],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/empty_template_structure.json"
+    },
+    {
+      "case": "empty_template_start",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "1: scope/criteria missing"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/empty_template_start.json"
+    },
+    {
+      "case": "unaccepted_predecessor",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "2: dependency not accepted: 1"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/unaccepted_predecessor.json"
+    },
+    {
+      "case": "accepted_predecessor",
+      "expect_accept": true,
+      "actual_accept": true,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": true,
+        "errors": [],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/accepted_predecessor.json"
+    },
+    {
+      "case": "stale_approval",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "1: stale approval revision"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/stale_approval.json"
+    },
+    {
+      "case": "changed_artifact",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "1:output: hash changed or missing"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/changed_artifact.json"
+    },
+    {
+      "case": "path_escape",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "1:output: '/private/tmp/flutter-skill-eval-20261010/regression/escape.txt' is not in the subpath of '/private/tmp/flutter-skill-eval-20261010/regression/fixtures' OR one path is relative and the other is absolute."
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/path_escape.json"
+    },
+    {
+      "case": "cycle",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "cyclic dependency: 1",
+          "1: dependency not accepted: 2"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/cycle.json"
+    },
+    {
+      "case": "missing_approval_locator",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "1: user approval evidence missing"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/missing_approval_locator.json"
+    },
+    {
+      "case": "required_meta_disabled",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "required Firebase/Meta modules missing"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/required_meta_disabled.json"
+    },
+    {
+      "case": "unknown_source",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "pages:p: unmapped source"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/unknown_source.json"
+    },
+    {
+      "case": "icon_as_finished_image",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "assets:hero: placeholder cannot count as complete image"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/icon_as_finished_image.json"
+    },
+    {
+      "case": "skip_without_reason",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "2: not-applicable reason missing"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/skip_without_reason.json"
+    },
+    {
+      "case": "skip_with_record",
+      "expect_accept": true,
+      "actual_accept": true,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": true,
+        "errors": [],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/skip_with_record.json"
+    },
+    {
+      "case": "all_stages_removed",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "all ten stages must be retained; use confirmed not_applicable instead of deleting stages"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/all_stages_removed.json"
+    },
+    {
+      "case": "eight_stages_missing",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "all ten stages must be retained; use confirmed not_applicable instead of deleting stages"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/eight_stages_missing.json"
+    },
+    {
+      "case": "zero_revision",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "1: revision must be a positive integer"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/zero_revision.json"
+    },
+    {
+      "case": "whitespace_scope_criteria",
+      "expect_accept": false,
+      "actual_accept": false,
+      "matches_expectation": true,
+      "boundary": "structural",
+      "checker": {
+        "ok": false,
+        "errors": [
+          "1: scope/criteria missing"
+        ],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/whitespace_scope_criteria.json"
+    },
+    {
+      "case": "plan_quote_mislabeled_accepted",
+      "expect_accept": true,
+      "actual_accept": true,
+      "matches_expectation": true,
+      "boundary": "approval meaning requires agent",
+      "checker": {
+        "ok": true,
+        "errors": [],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/plan_quote_mislabeled_accepted.json"
+    },
+    {
+      "case": "scope_changed_without_revision",
+      "expect_accept": true,
+      "actual_accept": true,
+      "matches_expectation": true,
+      "boundary": "revision management requires agent",
+      "checker": {
+        "ok": true,
+        "errors": [],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/scope_changed_without_revision.json"
+    },
+    {
+      "case": "empty_interaction_fields",
+      "expect_accept": true,
+      "actual_accept": true,
+      "matches_expectation": true,
+      "boundary": "interaction completeness requires agent",
+      "checker": {
+        "ok": true,
+        "errors": [],
+        "limit": "Does not verify user approval authenticity, UI or business behavior."
+      },
+      "fixture": "fixtures/empty_interaction_fields.json"
+    }
+  ]
+}

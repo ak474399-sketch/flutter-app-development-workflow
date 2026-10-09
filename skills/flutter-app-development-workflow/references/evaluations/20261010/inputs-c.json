@@ -1,0 +1,21 @@
+{
+  "scope": "隔离构造输入；不是真实产品验收。不操作服务或设备。",
+  "scenarios": [
+    {
+      "id": "A2",
+      "mode": "续办",
+      "user": "可以，按这个方向把首页做出来。",
+      "previous_assistant": "这是首页代表设计图的方案：沿用已确认冰蓝和机器人，减轻边框与投影。确认后制作 Flutter 首页；新版实际页面稍后提交验收。",
+      "project_state": {
+        "stage": "3",
+        "design_direction": "confirmed",
+        "flutter_home": "not_implemented",
+        "ui_acceptance": null
+      },
+      "prior_decisions": [
+        "只做页面；服务器和 AI 暂缓",
+        "本轮只应用首页，不扩展其它页"
+      ]
+    }
+  ]
+}

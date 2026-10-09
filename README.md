@@ -19,6 +19,6 @@ $flutter-app-development-workflow
 
 ## 验证和限制
 
-见 `VALIDATION.json` 与 skill `references/validation.md`。流程／素材和三个 SDK 共41项自动检查；真实业务验收、第三方后台接收、商店支付／权益、广告归因仍须当前产品验证。示例不能证明真实收费或广告投放。
+见 `VALIDATION.json` 与 skill `references/validation.md`。流程／素材和三个 SDK 共50项自动检查；21个隔离阶段记录用例复验符合预期。独立agent执行8个引导场景，并以新agent复验一处阶段措辞修订，原始输入与答复见 `references/evaluations/20261010/report.md`。这些是有限范围验证；真实业务验收、第三方后台接收、商店支付／权益、广告归因仍须当前产品验证。示例不能证明真实收费或广告投放。
 
 各 SDK 的 `INTEGRATION.md` 给出路径依赖、配置与宿主职责；只引入所选商业化包。源码包含依赖锁，没有正式配置、旧项目广告单元、生产密钥或用户设备数据。

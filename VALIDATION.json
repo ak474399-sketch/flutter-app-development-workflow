@@ -1,8 +1,8 @@
 {
   "environment": {
     "flutter": "3.41.9",
-    "scope": "local isolated tests; no device or live-service validation",
-    "dart": "3.11.5"
+    "dart": "3.11.5",
+    "scope": "local isolated tests; no device or live-service validation"
   },
   "steps": [
     {
@@ -115,42 +115,20 @@
       ],
       "cwd": "skills/flutter-app-development-workflow/assets/sdk/example_app",
       "exit_code": 0
-    },
-    {
-      "command": [
-        "/opt/homebrew/bin/flutter",
-        "build",
-        "apk",
-        "--debug"
-      ],
-      "cwd": "skills/flutter-app-development-workflow/assets/sdk/example_app",
-      "exit_code": 0
     }
   ],
   "ok": true,
   "expected_tests": {
-    "workflow_and_exports": 15,
+    "workflow_and_exports": 24,
     "growth": 7,
     "iaa": 8,
     "subscription": 11
   },
-  "behavior_evaluation": "same-agent walkthrough; no independent model evaluation",
+  "behavior_evaluation": "See references/validation.md for separately recorded behavioral evaluation; this script does not evaluate agent guidance.",
   "limitations": [
     "Real Firebase/Meta receipt and attribution not verified",
     "Real ad fill, SSV and income not verified",
     "Per-product verification backend and store transactions not provided or verified",
     "iOS Meta adapter and iOS builds not implemented/verified"
-  ],
-  "android_debug_host": {
-    "bytes": 169974894,
-    "sha256": "9b06de15595769f23a92231f24f58fc0c70f6f93df88bb0c5a237aed48fe8d1f",
-    "file": "skills/flutter-app-development-workflow/assets/sdk/example_app/build/app/outputs/flutter-apk/app-debug.apk"
-  },
-  "clean_checkout_build": {
-    "source_commit": "865ef5f358ccbd1287d49a39de53949d8dd8508d",
-    "result": "passed",
-    "scope": "fresh Git clone, no untracked local configuration, Android debug only",
-    "apk_sha256": "111c614d124f59f0599fdabd33440985820b019fc731190409c2d1cf9ef699d8",
-    "bytes": 154773495
-  }
+  ]
 }

@@ -74,6 +74,55 @@ class WorkflowTests(unittest.TestCase):
         self.assertTrue(workflow.check(self.data,self.root))
         s['na_reason']='scope excludes this step'
         self.assertEqual(workflow.check(self.data,self.root),[])
+    def test_all_ten_stages_must_be_retained(self):
+        for stages in [[], self.data['stages'][:2], self.data['stages'][:-1]]:
+            with self.subTest(count=len(stages)):
+                data=copy.deepcopy(self.data);data['stages']=stages
+                self.assertTrue(workflow.check(data,self.root))
+    def test_unknown_and_invalid_stage_ids_rejected(self):
+        for sid in ['11', 1, None, []]:
+            with self.subTest(sid=sid):
+                data=copy.deepcopy(self.data);data['stages'][0]['id']=sid
+                self.assertTrue(workflow.check(data,self.root))
+    def test_revision_requires_positive_integer_even_when_values_match(self):
+        self.accept(0)
+        for revision in [0, -1, True, 1.0, '1', None, []]:
+            with self.subTest(revision=revision):
+                data=copy.deepcopy(self.data)
+                data['stages'][0]['revision']=revision
+                data['stages'][0]['approval']['revision']=revision
+                self.assertTrue(workflow.check(data,self.root))
+    def test_approval_revision_cannot_use_bool_or_float(self):
+        self.accept(0)
+        for revision in [True, 1.0]:
+            data=copy.deepcopy(self.data);data['stages'][0]['approval']['revision']=revision
+            self.assertTrue(workflow.check(data,self.root))
+    def test_blank_scope_and_each_criterion_rejected(self):
+        stage=self.data['stages'][0]
+        for scope,criteria in [('  ',['inspect']),('scope',['  ']),('scope',['inspect','']),
+                               ('scope','inspect'),(True,['inspect']),('scope',[1])]:
+            with self.subTest(scope=scope,criteria=criteria):
+                stage.update(scope=scope,criteria=criteria)
+                self.assertTrue(workflow.check(self.data,self.root,'1'))
+        stage.update(scope=' scoped ',criteria=[' inspect '])
+        self.assertEqual(workflow.check(self.data,self.root,'1'),[])
+    def test_blank_approval_and_skip_reason_rejected(self):
+        self.accept(0)
+        for key in ['quote','message_ref','time']:
+            data=copy.deepcopy(self.data);data['stages'][0]['approval'][key]='  '
+            self.assertTrue(workflow.check(data,self.root))
+        self.data['stages'][0].update(status='not_applicable',na_reason='  ')
+        self.assertTrue(workflow.check(self.data,self.root))
+    def test_predecessor_gate_cannot_be_removed(self):
+        self.data['stages'][1].update(requires=[],scope='scope',criteria=['inspect'])
+        self.assertTrue(workflow.check(self.data,self.root,'2'))
+    def test_stage_order_does_not_depend_on_array_order(self):
+        self.data['stages'].reverse()
+        self.assertEqual(workflow.check(self.data,self.root),[])
+    def test_invalid_stage_container_returns_errors(self):
+        for stages in [None, {}, ['1']]:
+            data=copy.deepcopy(self.data);data['stages']=stages
+            self.assertTrue(workflow.check(data,self.root))
 
 def png(width,height):
     def chunk(kind,data): return struct.pack('>I',len(data))+kind+data+struct.pack('>I',zlib.crc32(kind+data)&0xffffffff)

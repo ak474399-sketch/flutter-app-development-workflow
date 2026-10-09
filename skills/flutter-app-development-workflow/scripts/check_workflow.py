@@ -7,6 +7,13 @@ from pathlib import Path
 
 KINDS = {'static', 'runtime', 'user_decision', 'inference', 'pending'}
 STATES = {'pending', 'in_progress', 'accepted', 'not_applicable'}
+STAGE_IDS = {str(i) for i in range(1, 11)}
+
+def text_value(value):
+    return isinstance(value, str) and bool(value.strip())
+
+def revision_value(value):
+    return type(value) is int and value > 0
 
 def artifact(root, item, errors, label):
     try:
@@ -23,15 +30,34 @@ def artifact(root, item, errors, label):
 def check(data, root, target=None):
     root = Path(root).resolve()
     errors = []
+    if not isinstance(data, dict):
+        return ['manifest must be an object']
     if data.get('schema') != 1:
         errors.append('unsupported schema')
     modules = data.get('modules', {})
     if modules.get('firebase') is not True or modules.get('meta') is not True:
         errors.append('required Firebase/Meta modules missing')
     stages = data.get('stages', [])
+    if not isinstance(stages, list) or any(not isinstance(s, dict) for s in stages):
+        return errors + ['stages must be a list of objects']
     ids = [s.get('id') for s in stages]
-    if len(ids) != len(set(ids)) or None in ids:
+    if any(not isinstance(sid, str) for sid in ids):
+        return errors + ['stage IDs must be strings 1 through 10']
+    if len(ids) != len(set(ids)):
         errors.append('stage IDs missing or duplicated')
+    if set(ids) != STAGE_IDS:
+        errors.append('all ten stages must be retained; use confirmed not_applicable instead of deleting stages')
+    for stage in stages:
+        sid = stage.get('id')
+        if not revision_value(stage.get('revision')):
+            errors.append(sid + ': revision must be a positive integer')
+        deps = stage.get('requires', [])
+        if not isinstance(deps, list) or any(not text_value(d) for d in deps):
+            errors.append(sid + ': requires must be a list of stage IDs')
+        elif sid in STAGE_IDS and sid != '1' and str(int(sid)-1) not in deps:
+            errors.append(sid + ': predecessor dependency must be retained')
+    if errors:
+        return errors
     index = {s.get('id'): s for s in stages}
     sources = data.get('sources', [])
     source_ids = [s.get('id') for s in sources]
@@ -84,18 +110,24 @@ def check(data, root, target=None):
                 if index.get(dep, {}).get('status') not in {'accepted', 'not_applicable'}:
                     errors.append(str(sid) + ': dependency not accepted: ' + str(dep))
         if needs_gate and state != 'not_applicable':
-            if not stage.get('scope') or not stage.get('criteria'):
+            criteria = stage.get('criteria')
+            if (not text_value(stage.get('scope')) or not isinstance(criteria, list)
+                    or not criteria or any(not text_value(c) for c in criteria)):
                 errors.append(str(sid) + ': scope/criteria missing')
             for item in stage.get('inputs', []):
                 artifact(root, item, errors, str(sid) + ':input')
         if state in {'accepted', 'not_applicable'}:
             approval = stage.get('approval') or {}
-            if approval.get('revision') != stage.get('revision'):
+            if not isinstance(approval, dict):
+                errors.append(str(sid) + ': approval must be an object')
+                continue
+            if (not revision_value(approval.get('revision'))
+                    or approval.get('revision') != stage.get('revision')):
                 errors.append(str(sid) + ': stale approval revision')
-            if any(not approval.get(k) for k in ['quote', 'message_ref', 'time']):
+            if any(not text_value(approval.get(k)) for k in ['quote', 'message_ref', 'time']):
                 errors.append(str(sid) + ': user approval evidence missing')
             if state == 'not_applicable':
-                if not stage.get('na_reason'):
+                if not text_value(stage.get('na_reason')):
                     errors.append(str(sid) + ': not-applicable reason missing')
             else:
                 if not stage.get('outputs'):

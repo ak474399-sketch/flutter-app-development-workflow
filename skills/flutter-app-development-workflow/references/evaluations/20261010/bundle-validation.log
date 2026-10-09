@@ -1,0 +1,123 @@
+test_crc_corruption_detected (test_checks.ExportTests) ... ok
+test_dimensions_and_alpha (test_checks.ExportTests) ... ok
+test_flat_zip_exact_members_and_content (test_checks.ExportTests) ... ok
+test_nested_extra_zip_rejected (test_checks.ExportTests) ... ok
+test_all_ten_stages_must_be_retained (test_checks.WorkflowTests) ... ok
+test_approval_revision_cannot_use_bool_or_float (test_checks.WorkflowTests) ... ok
+test_artifact_change_detected (test_checks.WorkflowTests) ... ok
+test_blank_approval_and_skip_reason_rejected (test_checks.WorkflowTests) ... ok
+test_blank_scope_and_each_criterion_rejected (test_checks.WorkflowTests) ... ok
+test_dependency_cycle_rejected (test_checks.WorkflowTests) ... ok
+test_empty_template_valid_but_not_executable (test_checks.WorkflowTests) ... ok
+test_invalid_stage_container_returns_errors (test_checks.WorkflowTests) ... ok
+test_no_configuration_acceptance_invented (test_checks.WorkflowTests) ... ok
+test_no_skipping_required_sdk (test_checks.WorkflowTests) ... ok
+test_not_applicable_requires_user_record_and_reason (test_checks.WorkflowTests) ... ok
+test_path_escape_rejected (test_checks.WorkflowTests) ... ok
+test_plan_approval_is_not_stage_acceptance (test_checks.WorkflowTests) ... ok
+test_predecessor_gate_cannot_be_removed (test_checks.WorkflowTests) ... ok
+test_revision_requires_positive_integer_even_when_values_match (test_checks.WorkflowTests) ... ok
+test_scope_change_invalidates_old_acceptance (test_checks.WorkflowTests) ... ok
+test_sources_pages_and_placeholders_checked (test_checks.WorkflowTests) ... ok
+test_stage_gate_requires_predecessor_acceptance (test_checks.WorkflowTests) ... ok
+test_stage_order_does_not_depend_on_array_order (test_checks.WorkflowTests) ... ok
+test_unknown_and_invalid_stage_ids_rejected (test_checks.WorkflowTests) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.033s
+
+OK
+Resolving dependencies...
+Downloading packages...
+  clock 1.1.2 (1.1.3 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.10 (0.7.15 available)
+  vector_math 2.2.0 (2.4.3 available)
+Got dependencies!
+7 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing app_growth_sdk...                                     
+No issues found! (ran in 1.3s)
+00:00 +0: loading /Users/winfield/Desktop/APK 逆向/flutter-app-development-workflow/skills/flutter-app-development-workflow/assets/sdk/app_growth_sdk/test/growth_test.dart
+00:00 +0: denied consent initializes Firebase without Meta or tracked events
+00:00 +1: grant then revoke applies gates and no duplicate activation
+00:00 +2: unexpected or private-shaped undeclared parameters rejected
+00:00 +3: failed consent never enables event delivery
+00:00 +4: remote invalid response retains last valid snapshot
+00:00 +5: init retry and exception body not forwarded
+00:00 +6: native channel forwards explicit config/consent and events
+00:00 +7: All tests passed!
+Resolving dependencies...
+Downloading packages...
+  clock 1.1.2 (1.1.3 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.10 (0.7.15 available)
+  vector_math 2.2.0 (2.4.3 available)
+  webview_flutter_android 4.12.0 (4.14.1 available)
+  webview_flutter_wkwebview 3.25.1 (3.27.0 available)
+Got dependencies!
+9 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing app_iaa_sdk...                                        
+No issues found! (ran in 1.5s)
+00:00 +0: loading /Users/winfield/Desktop/APK 逆向/flutter-app-development-workflow/skills/flutter-app-development-workflow/assets/sdk/app_iaa_sdk/test/inventory_test.dart
+00:00 +0: unselected and denied modules never initialize or request
+00:00 +1: ready plus pending bounded and global concurrency four
+00:00 +2: disabled late callbacks release and do not enter new inventory
+00:00 +3: expiry releases before acquisition and refills without auto-show
+00:00 +4: fullscreen mutex and stale opportunity do not consume inventory
+00:00 +5: inline leases unique and release exactly once
+00:00 +6: timeout reserves physical request slots and releases late ads
+00:00 +7: interstitial total capacity cannot exceed four
+00:00 +8: All tests passed!
+Resolving dependencies...
+Downloading packages...
+  clock 1.1.2 (1.1.3 available)
+  in_app_purchase_android 0.5.0 (0.5.3 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.10 (0.7.15 available)
+  vector_math 2.2.0 (2.4.3 available)
+Got dependencies!
+8 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing app_subscription_sdk...                               
+No issues found! (ran in 1.2s)
+00:00 +0: loading /Users/winfield/Desktop/APK 逆向/flutter-app-development-workflow/skills/flutter-app-development-workflow/assets/sdk/app_subscription_sdk/test/subscription_test.dart
+00:00 +0: pending canceled and error never grant or acknowledge
+00:00 +1: purchase duplicate callbacks report once after verification and acknowledgement
+00:00 +2: invalid rights or verification outage do not acknowledge, retry is possible
+00:00 +3: inactive rights and unrelated products cannot activate
+00:00 +4: restore verifies instead of granting locally
+00:00 +5: store acknowledgement failure retained for retry
+00:00 +6: disposed controller ignores late verification
+00:00 +7: close unavailable before 2000ms and visible at boundary, rebuild does not reset
+00:00 +8: verified purchase auto closes once even before close timer, pending does not
+00:00 +9: verified restore also closes, destroyed page never closes a new route
+00:00 +10: small screen large text and RTL do not overflow
+00:00 +11: All tests passed!
+Resolving dependencies...
+Downloading packages...
+  clock 1.1.2 (1.1.3 available)
+  in_app_purchase_android 0.5.0 (0.5.3 available)
+  matcher 0.12.19 (0.12.20 available)
+  material_color_utilities 0.13.0 (0.13.1 available)
+  meta 1.17.0 (1.19.0 available)
+  stack_trace 1.12.1 (1.12.2 available)
+  test_api 0.7.10 (0.7.15 available)
+  vector_math 2.2.0 (2.4.3 available)
+  webview_flutter_android 4.12.0 (4.14.1 available)
+  webview_flutter_wkwebview 3.25.1 (3.27.0 available)
+Got dependencies!
+10 packages have newer versions incompatible with dependency constraints.
+Try `flutter pub outdated` for more information.
+Analyzing example_app...                                        
+No issues found! (ran in 1.7s)

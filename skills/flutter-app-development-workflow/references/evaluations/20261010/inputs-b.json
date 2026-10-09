@@ -1,0 +1,33 @@
+{
+  "scope": "隔离评估场景；下面是构造的测试输入，不是历史用户原话或真实项目验收。只输出答复，不执行设备、网络、图像生成或商业操作。",
+  "scenarios": [
+    {
+      "id": "B1",
+      "mode": "续办",
+      "user": "继续打测试包，服务器已经允许用正式的，但包名、凭证、签名不要复用正式的。",
+      "project_state": {"stage": "9", "test_identity": "specified in project config", "server_sharing": "authorized", "test_credentials": "missing", "device_access": "not authorized in this scenario"},
+      "prior_decisions": ["独立测试包名已指定", "测试签名已准备", "只构建，不安装"]
+    },
+    {
+      "id": "B2",
+      "mode": "续办",
+      "user": "用广告默认缓存方案：首页每次点击入口都弹一次插页，可以直接按英语复制。",
+      "project_state": {"stage": "8", "iaa": "selected", "homepage_ad_trigger": "not previously agreed", "other_page_ad_triggers": "not agreed", "ad_units": "not provided"},
+      "prior_decisions": ["复用每池2条、插页共享总4条、55分钟过期、最多4个并发请求", "本产品只选 Banner 和插页", "页面触发和频率按产品确认"]
+    },
+    {
+      "id": "B3",
+      "mode": "续办",
+      "user": "恢复购买已经有成功 callback，先自动关闭订阅页。真验证后端之后再说。",
+      "project_state": {"stage": "8", "subscription": "selected", "store_callback": "restored", "verification_backend": "not implemented", "entitlement": "not verified"},
+      "prior_decisions": ["恢复经验证且权益生效后自动关闭", "关闭按钮从首次可见帧起2秒出现", "右上恢复文字、左上关闭、主视觉和套餐布局已定"]
+    },
+    {
+      "id": "B4",
+      "mode": "续办",
+      "user": "旧版页面验收通过了，新版改过路由和输入区。现在交付正式包和商店图。",
+      "project_state": {"stage": "9", "accepted_version": "0.3", "candidate_version": "0.4", "candidate_ui_acceptance": null, "images_available": "generated design boards only", "release_signing": "not provided", "store_submission_authorization": "not provided"},
+      "prior_decisions": ["交付需要 banner、logo、真实 UI 上线图和源码", "每大阶段实际产物要验收"]
+    }
+  ]
+}
