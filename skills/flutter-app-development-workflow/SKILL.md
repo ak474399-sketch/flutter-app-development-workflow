@@ -1,8 +1,8 @@
 ---
 name: flutter-app-development-workflow
-description: 从已有 APK、逆向报告及开发记录出发，引导用户逐阶段制作同类型 Flutter 应用，涵盖页面与交互、image 设计、本地功能、后端、AI、可选商业化及发布交付。使用时先对齐阶段和验收，复用 AI 英语与扫脸的真实迭代经验。
+description: 从已有 APK、逆向报告及开发记录出发，引导用户逐阶段制作 AI 订阅类或广告变现的 Flutter 应用，涵盖页面与交互、image 设计、本地功能、后端、AI、可选商业化及发布交付。使用时先对齐阶段和验收，复用类别化开发经验与 SDK 模块。
 ---
-# Flutter 应用开发流程
+# AI 订阅类与广告变现应用开发流程
 
 ## 入口与第一次回复
 先读已有项目说明、用户指令、逆向报告、页面证据、版本记录及验收材料。核心入口是参考 APK／逆向资料；没有资料时说明缺口并询问可取得的来源。不要自行加入市场定位、目标用户访谈、付费理由等通用策划步骤。特定人群、价格或商业规则只来自明确用户决定。
@@ -22,7 +22,7 @@ description: 从已有 APK、逆向报告及开发记录出发，引导用户逐
 | 9 整体验收 | 当前版本回归与缺陷修复 | 候选版本、用例、适用设备 | 分层证据、缺陷闭环、未验项和用户验收 |
 | 10 上报与交付 | 素材、构建、交接及约定提交 | 已验收版本、真实截图、发布资料 | banner、logo、上线图、文案、源码、包、哈希；各自验收 |
 
-详细阶段准备、提问与门槛见 [阶段规范](references/stages.md)。提问方法见 [引导与验收](references/guidance.md) 和 [各阶段问题模板](references/stage-prompts.md)。历史依据见 [经验与来源](references/experience.md)，逐项摘录及定位在 `references/source-index.json`。仅加载当前阶段相关内容。
+详细阶段准备、提问与门槛见 [阶段规范](references/stages.md)。提问方法见 [引导与验收](references/guidance.md) 和 [各阶段问题模板](references/stage-prompts.md)。类别化经验见 [经验与来源](references/experience.md)，转述及用户决定在 `references/source-index.json`；转述不是原始记录逐字引用。仅加载当前阶段相关内容。
 
 ## 大阶段门槛
 执行前与用户对齐阶段范围、准备内容及具体验收标准。大阶段结束展示产物、实际证据、缺陷与未完成项，获得用户明确验收后才进入依赖它的下一阶段。自动检查是证据，不替代用户验收；等待用户时可继续整理独立材料。未通过不登记完成。无对应需求时说明原因，请用户确认不适用。阶段内操作不重复询问已授权决定。
@@ -53,6 +53,6 @@ Firebase Analytics、Crashlytics、Remote Config 与 Facebook App Events 为本�
 结束或交接时记录当前阶段、最新决定、产物版本、已验范围、缺口和下一步。续办重新核对易变状态，不重做已验产物，不继承旧版本验收。
 
 ## 可执行检查与边界
-从模板复制 project.json 到新项目，先填 scope、criteria、inputs，再用 `python3 scripts/check_workflow.py <项目清单> --root <项目根> --for-stage <阶段ID>` 核对依赖与准备；只查清单可省略 for-stage。status 为 pending 的空模板可通过结构检查，但不代表可开始工作。accepted 必须填写实际用户 quote／message_ref／time／revision 及产物 file／sha256；脚本不验证用户原话的真实性。完整开发记录的文件库存位于 `assets/evidence/development-record-inventory.json`，它不代表全部会话逐字阅读。
+从模板复制 project.json 到新项目，先填 scope、criteria、inputs，再用 `python3 scripts/check_workflow.py <项目清单> --root <项目根> --for-stage <阶段ID>` 核对依赖与准备；只查清单可省略 for-stage。status 为 pending 的空模板可通过结构检查，但不代表可开始工作。accepted 必须填写实际用户 quote／message_ref／time／revision 及产物 file／sha256；脚本不验证用户原话的真实性。类别化记录指纹清单位于 `assets/evidence/development-record-inventory.json`，不披露源项目名称、目录或品牌，也不代表全部会话逐字阅读。
 
 素材导出使用 `assets/templates/exports.json` 和 `scripts/check_exports.py`，当前支持 PNG 结构、尺寸、alpha 通道及精确平铺 ZIP 内容，不解码像素、不判断视觉或商店当前规格。实际行为演练和验证边界见 [验证记录](references/validation.md)。

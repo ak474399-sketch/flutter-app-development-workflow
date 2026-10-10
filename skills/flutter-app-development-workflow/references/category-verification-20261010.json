@@ -1,0 +1,12 @@
+{
+  "version": "v0.1.2",
+  "case_identifier_files": [],
+  "broken_markdown_links": [],
+  "sdk_files_unchanged": true,
+  "source_cases": 15,
+  "anonymous_records": 387,
+  "anonymous_inventory_valid": true,
+  "verification_scope": "category-only editorial update; no new independent-agent or SDK/native execution",
+  "workflow_export_tests": 24,
+  "skill_structure": "passed"
+}

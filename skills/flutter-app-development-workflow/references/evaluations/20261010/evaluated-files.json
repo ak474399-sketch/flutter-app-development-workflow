@@ -10,5 +10,6 @@
   "limits": [
     "No live-service/device validation",
     "No exhaustive proof of guidance correctness"
-  ]
+  ],
+  "hash_scope": "Historical evaluated snapshot before category-only editorial changes; these hashes are not a claim that current documentation is unchanged."
 }
